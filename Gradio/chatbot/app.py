@@ -3,15 +3,15 @@ import argparse
 import gradio as gr
 import os
 
-os.environ["OPENMIND_HUB_ENDPOINT"] = "https://modelfoundry.test.osinfra.cn/"
+os.environ["OPENMIND_HUB_ENDPOINT"] = "https://telecom.openmind.cn/"
 
-from chatways import SimpleChatBot
+from chattemplate import SimpleChatBot
 from openmind_hub import snapshot_download
 
-
-model_id = "baymax_591/baichuan2-13b"
+model_id = "openmind/baichuan2_7b_chat_pt"
 model_path = "/home/openMind/model"
 snapshot_download(repo_id=model_id, local_dir=model_path)
+
 # Step 1. Configuration
 CSS = """#chatbot {
     height: 60vh !important;
@@ -25,21 +25,7 @@ HEADER = """# Chat
 This is a simple chat application that uses a language model to generate responses.
 """
 
-OPENAI_PARAMEATERS = [
-    ("temperature", 1.0, 0.0, 2.0, 0.01),
-    ("top_p", 1.0, 0.0, 1.0, 0.01),
-    ("frequency_penalty", 0.0, -2.0, 2.0, 0.01),
-    ("presence_penalty", 0.0, -2.0, 2.0, 0.01),
-]
-
 HF_PARAMETERS = [
-    ("temperature", 1.0, 0.0, 2.0, 0.01),
-    ("top_k", 50, 0, 100, 1),
-    ("top_p", 1.0, 0.0, 2.0, 0.01),
-    ("max_new_tokens", 512, 0, 1024, 1),
-]
-
-FAKE_PARAMETERS = [
     ("temperature", 1.0, 0.0, 2.0, 0.01),
     ("top_k", 50, 0, 100, 1),
     ("top_p", 1.0, 0.0, 2.0, 0.01),
@@ -50,22 +36,6 @@ FAKE_PARAMETERS = [
 # Step 2. Argument Parsing
 def parse_args():
     parser = argparse.ArgumentParser(description="Simple Chat Application")
-    parser.add_argument(
-        "-a",
-        "--address",
-        type=str,
-        default="127.0.0.1",
-        help="Default address is 127.0.0.1",
-    )
-    parser.add_argument(
-        "-p", "--port", type=int, default=7860, help="Default port is 7860"
-    )
-    parser.add_argument(
-        "-le", "--llm-engine", type=str, default=None, help="The LLM engine to use"
-    )
-    parser.add_argument(
-        "-lm", "--llm-model", type=str, default=None, help="The LLM model path"
-    )
     parser.add_argument(
         "-lc",
         "--llm-model-config",
@@ -92,12 +62,8 @@ bot = SimpleChatBot(
 
 # Step 4. Callbacks definition
 def get_generation_config(components):
-    if args.llm_engine == "openai" or args.llm_engine is None:
-        parameters = OPENAI_PARAMEATERS
-    elif args.llm_engine == "huggingface":
-        parameters = HF_PARAMETERS
-    elif args.llm_engine == "fake":
-        parameters = FAKE_PARAMETERS
+
+    parameters = HF_PARAMETERS
 
     parameter_components = components[: int(len(components) / 2)]
     availabel_components = components[int(len(components) / 2) :]
@@ -170,13 +136,7 @@ with gr.Blocks(css=CSS) as demo:
         send_btn = gr.Button(scale=1, value="Send", variant="primary")
 
     with gr.Accordion("Parameters", open=False):
-        if args.llm_engine == "openai" or args.llm_engine is None:
-            parameters = OPENAI_PARAMEATERS
-        elif args.llm_engine == "huggingface":
-            parameters = HF_PARAMETERS
-        elif args.llm_engine == "fake":
-            parameters = FAKE_PARAMETERS
-
+        parameters = HF_PARAMETERS
         availabel_components = []
         parameter_components = []
         index = 0
