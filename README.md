@@ -15,7 +15,7 @@ openmind-resource-template openmind使用的模型 数据集 体验空间相关�
     ├── clone                                ## 体验空间下载源码模版 owner: xxx
     └── template                             ## 体验空间相关模版 owner: xxx
         ├── gradio                           ## Gradio相关模版 owner: xxx
-        │   ├── chatbot                      ## chatbot owner: xxx
+        │   ├── chatbot                      ## chatbot owner: cuiming
         │   ├── cpu                          ## cpu owner: xxx
         │   └── npu                          ## npu owner: xxx
         │       ├── mindspore
@@ -24,3 +24,7 @@ openmind-resource-template openmind使用的模型 数据集 体验空间相关�
             └── cpu                          ## cpu owner: xxx
 
  ~~~
+
+
+ ## 注意
+- 每次添加新目录 需要刷新README目录树 并在注释添加 owner 
