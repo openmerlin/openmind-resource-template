@@ -5,17 +5,15 @@ import gradio as gr
 
 
 tokenizer = AutoTokenizer.from_pretrained(
-    "openmind/baichuan2_7b_chat_pt", use_fast=False, trust_remote_code=True
+    "baymax_591/baichuan2-13b", use_fast=False, trust_remote_code=True
 )
 model = AutoModelForCausalLM.from_pretrained(
-    "openmind/baichuan2_7b_chat_pt",
+    "baymax_591/baichuan2-13b",
     device_map="npu:0",
     torch_dtype=torch.bfloat16,
     trust_remote_code=True,
 )
-model.generation_config = GenerationConfig.from_pretrained(
-    "openmind/baichuan2_7b_chat_pt"
-)
+model.generation_config = GenerationConfig.from_pretrained("baymax_591/baichuan2-13b")
 
 
 def generate_response(input_text):
