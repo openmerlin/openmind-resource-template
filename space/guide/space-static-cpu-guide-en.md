@@ -5,7 +5,7 @@ This is a Static HTML space running on CPUs. Upload at least the `index.html` fi
 **Clone this repository:**
 
 ```bash
-git clone [link]
+git clone [git_https_url]
 cd [repo_name]
 ```
 

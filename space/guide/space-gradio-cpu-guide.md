@@ -5,7 +5,7 @@
 **克隆本仓库：**
 
 ```bash
-git clone [link]
+git clone [git_https_url]
 cd [repo_name]
 ```
 

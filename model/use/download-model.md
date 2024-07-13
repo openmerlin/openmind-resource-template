@@ -2,5 +2,5 @@
 
 ```python
 from openmind.hub_utils import mds_hub_download
-mds_hub_download(repo_id="[repo]", filename="[模型内某个文件]")
+mds_hub_download(repo_id="[repo_id]", filename="[filename]")
 ```
