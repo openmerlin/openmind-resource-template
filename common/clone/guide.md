@@ -6,7 +6,7 @@ git lfs install
 克隆本仓库：
 
 ```bash
-git clone [link]
+git clone [git_https_url]
 ```
 
 本地文件更新后，可使用以下命令完成推送：

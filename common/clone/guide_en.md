@@ -6,7 +6,7 @@ git lfs install
 Clone this repository:
 
 ```bash
-git clone [link]
+git clone [git_https_url]
 ```
 
 After a local file is updated, run the following commands to push the file:

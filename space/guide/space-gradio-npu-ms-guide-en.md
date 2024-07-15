@@ -5,7 +5,7 @@ This is a Gradio space running on Ascend NPUs. Upload at least the `app.py` and 
 **Clone this repository:**
 
 ```bash
-git clone [link]
+git clone [git_https_url]
 cd [repo_name]
 ```
 

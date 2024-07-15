@@ -5,7 +5,7 @@ This is a Gradio space running on CPUs. Upload at least the `app.py` and `requir
 **Clone this repository:**
 
 ```bash
-git clone [link]
+git clone [git_https_url]
 cd [repo_name]
 ```
 
