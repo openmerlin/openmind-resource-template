@@ -1,9 +1,10 @@
 #!/bin/bash
-JUPYTER_TOKEN="${JUPYTER_TOKEN:=huggingface}"
+JUPYTER_TOKEN="${JUPYTER_TOKEN:=openmind}"
 
 echo "Starting Jupyter Lab with token $JUPYTER_TOKEN"
 
-NOTEBOOK_DIR="/data"
+mkdir data
+NOTEBOOK_DIR="data"
 
 jupyter-lab \
     --ip 0.0.0.0 \
