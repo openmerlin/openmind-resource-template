@@ -5,10 +5,10 @@ import gradio as gr
 mindspore.set_context(mode=0, device_id=0)
 
 tokenizer = AutoTokenizer.from_pretrained(
-    "openmind/baichuan2_7b_chat_ms", trust_remote_code=True
+    "modelfoundryinfra/baichuan2-7b-chat-ms", trust_remote_code=True
 )
 model = AutoModelForCausalLM.from_pretrained(
-    "openmind/baichuan2_7b_chat_ms", trust_remote_code=True
+    "modelfoundryinfra/baichuan2-7b-chat-ms", trust_remote_code=True
 )
 
 
