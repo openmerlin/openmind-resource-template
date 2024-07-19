@@ -1,47 +1,37 @@
-import torch
-from openmind import AutoModelForCausalLM, AutoTokenizer
-from transformers.generation.utils import GenerationConfig
+import os
+
+os.environ["OPENMIND_HUB_ENDPOINT"] = "https://openmind.test.osinfra.cn/"
 import gradio as gr
+from openmind import AutoModelForCausalLM, AutoTokenizer
+import torch
 
 
-tokenizer = AutoTokenizer.from_pretrained(
-    "modelfoundryinfra/baichuan2-7b-chat-pt", use_fast=False, trust_remote_code=True
-)
-model = AutoModelForCausalLM.from_pretrained(
-    "modelfoundryinfra/baichuan2-7b-chat-pt",
-    device_map="npu:0",
-    torch_dtype=torch.bfloat16,
-    trust_remote_code=True,
-)
-model.generation_config = GenerationConfig.from_pretrained(
-    "modelfoundryinfra/baichuan2-7b-chat-pt"
-)
+def load_model():
+    device = "npu:0"
+    model_path = "modelfoundryinfra/baichuan2-7b-chat-pt"
+    tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+    model = AutoModelForCausalLM.from_pretrained(
+        model_path, torch_dtype=torch.bfloat16, trust_remote_code=True
+    ).to(device)
+    return model, tokenizer
 
 
-def generate_response(input_text):
-    messages = [{"role": "user", "content": input_text}]
+def chat(content, history):
+    if isinstance(history, list):
+        history = []
+    messages = [{"role": "user", "content": content}]
     response = model.chat(tokenizer, messages)
+    history.append(messages)
+    history.append({"role": "bot", "content": response})
     return response
 
 
-def clear_textbox():
-    return "", ""
-
-
-with gr.Blocks() as demo:
-    gr.Markdown("# Chat with Model")
-
-    with gr.Row():
-        input_box = gr.Textbox(placeholder="input", show_label=False)
-        output_box = gr.Textbox(
-            placeholder="output", show_label=False, interactive=False
-        )
-
-    with gr.Row():
-        send_btn = gr.Button(value="Send")
-        clear_btn = gr.Button(value="Clear")
-
-    send_btn.click(generate_response, inputs=input_box, outputs=output_box)
-    clear_btn.click(clear_textbox, outputs=[input_box, output_box])
-
-demo.launch()
+if __name__ == "__main__":
+    model, tokenizer = load_model()
+    gr.ChatInterface(
+        chat,
+        title="Baichuan2_7B 对话",
+        description="Baichuan 2 是百川智能推出的新一代开源大语言模型，采用 2.6 万亿 Tokens 的高质量语料训练，在权威的中文和英文 benchmark \
+上均取得同尺寸最好的效果。",
+        examples=["解释一下“温故而知新", "请制定一份杭州一日游计划"],
+    ).launch()
