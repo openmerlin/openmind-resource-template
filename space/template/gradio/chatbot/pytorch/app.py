@@ -33,5 +33,5 @@ if __name__ == "__main__":
         title="Baichuan2_7B 对话",
         description="Baichuan 2 是百川智能推出的新一代开源大语言模型，采用 2.6 万亿 Tokens 的高质量语料训练，在权威的中文和英文 benchmark \
 上均取得同尺寸最好的效果。",
-        examples=["解释一下“温故而知新", "请制定一份杭州一日游计划"],
+        examples=["解释一下“温故而知新”", "请制定一份杭州一日游计划"],
     ).launch()
