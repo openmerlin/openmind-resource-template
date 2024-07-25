@@ -23,6 +23,9 @@
     color: rgba(0, 0, 0, 0.4);
     margin: 8px 0 0 0;
   }
+  .navbar-form {
+    margin-top: 30px;
+  }
   .navbar-form label {
     font-size: 16px;
     line-height: 24px;
@@ -65,8 +68,12 @@
   }
   .btn-default:active {
     border: none;
-    background-color: #000;
-    color: #fff;
+    background-color: #000 !important;
+    color: #fff !important;
+    outline: none !important;
+  }
+  .error {
+    margin: 0 !important;
   }
 </style>
 {% endblock %} {% block site %}
@@ -88,7 +95,7 @@
             <p class="default-value">默认令牌为：openMind</p>
 
             <p class="modify-tip">
-              若想修改令牌，请手动在设置中添加机密变量 NOTEBOOK_TOKEN
+              若想修改令牌，请手动在设置中添加机密变量 JUPYTER_TOKEN
             </p>
 
             <form
