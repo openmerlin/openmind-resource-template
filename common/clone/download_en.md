@@ -1,14 +1,17 @@
 Download this [module]:
 
 ```bash
+# Make sure you have git-lfs installed (https://git-lfs.com)
 git lfs install
+```
+
+```bash
 git clone [git_https_url]
 ```
 
 If you want to skip downloading large LFS files (keep only LFS pointers), please add `GIT_LFS_SKIP_SMUDGE=1` before the git clone command:
 
 ```bash
-git lfs install
 GIT_LFS_SKIP_SMUDGE=1 git clone [git_https_url]
 ```
 
