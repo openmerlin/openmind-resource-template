@@ -5,6 +5,7 @@ jupyter-lab \
     --port 7860 \
     --no-browser \
     --allow-root \
+    --ServerApp.base_url="$GRADIO_ROOT_PATH" \
     --ServerApp.token="$JUPYTER_TOKEN" \
     --ServerApp.tornado_settings="{'headers': {'Content-Security-Policy': 'frame-ancestors *'}}" \
     --ServerApp.cookie_options="{'SameSite': 'None', 'Secure': True}" \
