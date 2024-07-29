@@ -136,7 +136,10 @@
   {% endif %} {% if message %}
   <div class="row">
     {% for key in message %}
-    <div class="message {{key}}">{{message[key]}}</div>
+    <div class="message {{key}}">
+      {% if message[key] == "Invalid credentials" %} 请输入正确的令牌 {% else %}
+      {{ message[key] }} {% endif %}
+    </div>
     {% endfor %}
   </div>
   {% endif %}
