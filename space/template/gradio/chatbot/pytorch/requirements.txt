@@ -1,1 +1,2 @@
 gradio
+chatways==0.1.0-dev5
