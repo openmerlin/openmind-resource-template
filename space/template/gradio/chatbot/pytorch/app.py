@@ -1,11 +1,6 @@
-import torch
-import json
 import argparse
 import gradio as gr
-import os
-
-os.environ["OPENMIND_HUB_ENDPOINT"] = "https://telecom.openmind.cn/"
-
+import json
 from chatways import SimpleChatBot
 
 # Step 1. Configuration
@@ -51,8 +46,8 @@ def parse_args():
     parser.add_argument(
         "-lc",
         "--llm-model-config",
-        type=object,
-        default={"torch_dtype": torch.bfloat16, "device_map": "npu:0"},
+        type=str,
+        default='{"torch_dtype": "auto", "device_map": "npu:0"}',
         help="The LLM model configuration in JSON format",
     )
     return parser.parse_args()
@@ -64,8 +59,10 @@ args = parse_args()
 bot = SimpleChatBot(
     llm_config={
         "engine": "openmind",
-        "model": "openmind/baichuan2_7b_chat_pt",
-        "model_config": args.llm_model_config,
+        "model": "openmind/qwen1.5_7b_chat_pt",
+        "model_config": (
+            json.loads(args.llm_model_config) if args.llm_model_config else None
+        ),
     }
 )
 
