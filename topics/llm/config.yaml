@@ -1,0 +1,460 @@
+id: llm
+type: content
+logo: imgs/logo.svg
+cover: imgs/cover.png
+banner: imgs/banner.jpg
+color: "#5478FB"
+name_zh: 大语言模型
+name_en: Large Language Models
+desc_zh: 大语言模型(LLM)是一种旨在理解和生成人类语言的人工智能模型，包含：百川、通义千问、ChatGLM、Llama等。
+desc_en: >-
+  A large language model (LLM) is an AI model designed to comprehend and
+  generate human languages. Some examples of LLMs include Baichuan, Tongyi
+  Qianqu, ChatGLM, and Llama.
+detail:
+  - logo: imgs/logo-TeleAI.png
+    name_zh: 星辰语义
+    name_en: TeleChat
+    desc_zh: >-
+      星辰语义大模型，是由中国电信人工智能科技有限公司研发训练的大语言模型，覆盖3B、7B、12B 和 130B 等参数量级。星辰语义大模型采用 1.5
+      万亿 Tokens 中英文高质量语料进行训练，并且在业界首次提出解决多轮幻觉的解决方案，将 AI 大模型的幻觉率降低了40%。
+    desc_en: >-
+      TeleChat, a collection of LLMs boasting parameters of 3 billion, 7
+      billion, 12 billion, and 130 billion, is developed and trained by China
+      Telecom Artificial Intelligence Technology Co., Ltd. on a corpus
+      containing 1.5 trillion tokens from both English and Chinese languages. It
+      is the first solution to solve multiple rounds of hallucinations, reducing
+      hallucinations by 40%.
+    assets:
+      models:
+        - owner: TeleAI
+          name: TeleChat-7B-pt
+        - owner: TeleAI
+          name: TeleChat-7B-ms
+        - owner: TeleAI
+          name: TeleChat-52B-pt
+        - owner: TeleAI
+          name: TeleChat-12B-ms
+        - owner: TeleAI
+          name: TeleChat-12B-pt
+        - owner: MindSpore-Lab
+          name: telechat_7b
+        - owner: TeleAI
+          name: TeleSpeechASR1.0-large-pt
+  - logo: imgs/logo-InternLM.png
+    name_zh: 书生·浦语系列
+    name_en: InternLM
+    desc_zh: >-
+      书生·浦语(InternLM)大语言模型由上海人工智能实验室与商汤科技联合香港中文大学和复旦大学共同推出，包含两个尺度的模型：7B 和
+      20B。InterLM-20B，是在超过 2.3T Tokens 数据进行预训练的200亿参数大模型，其 Chat 版本还经过了 SFT 和
+      RLHF 训练，更好满足用户需求。
+    desc_en: >-
+      InternLM is released by the Shanghai Artificial Intelligence Laboratory,
+      in collaboration with SenseTime Technology, the Chinese University of Hong
+      Kong, and Fudan University. It contains 7B and 20B models. InterLM-20B is
+      a 20-billion parameter model pre-trained on over 2.3T tokens, and the Chat
+      version has undergone SFT and RLHF training.
+    assets:
+      models:
+        - owner: openmind
+          name: internlm2_chat_7b
+        - owner: MindSpore-Lab
+          name: internlm_7b_chat
+        - owner: MindSpore-Lab
+          name: internlm_20b_chat
+        - owner: MindSpore-Lab
+          name: internlm_20b_base
+        - owner: MindSpore-Lab
+          name: internlm_7b_base
+        - owner: PyTorch-NPU
+          name: intern_for_Pytorch
+  - logo: imgs/logo-Yi.png
+    name_zh: Yi系列
+    name_en: Yi Models
+    desc_zh: >-
+      零一万物2023年11月发布Yi系列开源模型，包含 6B 和 34B 两个版本。Yi-34B在主流基准测试上与 GPT-3.5
+      相当，经过模型参数和KV缓存量化后，推理成本得到控制，更好满足开源社区的需求。Yi-34B还支持200K 超长上下文窗口版本，可以处理约 40万
+      汉字超长文本输入。在语言模型中，上下文窗口对于理解和生成与特定上下文相关的文本至关重要，拥有更长窗口的语言模型可以处理更丰富的知识库信息。
+    desc_en: >-
+      In November 2023, Lingyi Wanwu introduced the Yi open-source models, which
+      include the 6B and 34B versions. Based on mainstream benchmark tests,
+      Yi-34B performs at a level equivalent to GPT-3.5. After optimizing model
+      parameters and utilizing KV cache quantization, the inference cost has
+      been reduced to better align with the needs of the open-source community.
+      Yi-34B supports ultra-long contexts of up to 200 KB and can handle an
+      input containing approximately 400,000 Chinese characters. In language
+      models, contextual windows play a critical role in comprehending and
+      generating context-specific text, and a model with longer windows can
+      effectively handle rich knowledge bases.
+    assets:
+      models:
+        - owner: HaM
+          name: yi_34b_chat
+  - name_zh: BlueLM系列
+    name_en: BlueLM Models
+    desc_zh: >-
+      BlueLM系列模型是vivo
+      AI全球研究院自主研发的大规模预训练语言模型，具有强大的语言理解能力。BlueLM系列模型包含多个参数量级，如十亿、百亿、千亿和70亿，以满足不同场景的需求。其中，7B和1B模型支持高通和联发科双平台，适用于端侧场景；而70B、130B和175B模型则面向云端服务和复杂逻辑推理等应用场景。
+    desc_en: >-
+      BlueLM models are large-scale pre-trained language models  independently
+      developed by Vivo's Global AI R&D Center, featuring powerful language
+      comprehension capabilities. To meet the needs of different scenarios,
+      BlueLM models can process parameters at various scales, billions, tens of
+      billions, even hundreds of billions. Among them, the 7B and 1B models
+      support both Qualcomm and MediaTek platforms, making them suitable for
+      edge-side scenarios. Meanwhile, the 70B, 130B, and 175B models are
+      designed for cloud services and complex logical inference applications.
+    assets:
+      models:
+        - owner: openmind
+          name: bluelm_7b_chat_pt
+  - logo: imgs/logo-baichuan.png
+    name_zh: 百川
+    name_en: Baichuan Models
+    desc_zh: >-
+      百川系列模型是由百川智能公司推出的一系列先进的大语言模型，包含了baichuan-7B、baichuan-13B、baichuan2-7B等。其中
+      Baichuan 2 系列在多个权威的中文、英文和多语言的通用、领域 benchmark 上取得同尺寸最佳的效果。
+    desc_en: >-
+      Baichuan models are a collection of advanced LLMs launched by Baichuan
+      Intelligence, including baichuan-7B, baichuan-13B, baichuan2-7B, and
+      others. Among them, the Baichuan 2 series has achieved the best results
+      for its size on various authoritative Chinese, English, and multilingual
+      general and domain-specific benchmarks.
+    assets:
+      models:
+        - owner: openmind
+          name: baichuan2_7b_chat_ms
+        - owner: openmind
+          name: baichuan2_7b_chat_pt
+        - owner: openmind
+          name: baichuan2_13b_chat_pt
+        - owner: openmind
+          name: baichuan2_13b_base_pt
+        - owner: MindSpore-Lab
+          name: baichuan2_7b_chat
+        - owner: openmind
+          name: baichuan_7b_pt
+        - owner: MindSpore-Lab
+          name: baichuan2_13b_base
+        - owner: MindSpore-Lab
+          name: baichuan2_13b_chat
+        - owner: openmind
+          name: baichuan2_7b_base_pt
+        - owner: niujunhao
+          name: baichuan2_13b_chat
+        - owner: MindSpore-Lab
+          name: baichuan2_7b_base
+        - owner: PyTorch-NPU
+          name: baichuan_for_Pytorch
+  - logo: imgs/logo-qwen.png
+    name_zh: 通义千问
+    name_en: Tongyi Qianwen
+    desc_zh: >-
+      通义千问是阿里云推出的一款超大规模语言模型，其中开源版本提供包括从5亿到1100亿等多个规模。这些模型基于Transformer结构，采用了多层自注意力机制，能够高效地处理长文本和复杂的语言数据。
+    desc_en: >-
+      Tongyi Qianwen is a hyperscale LLM launched by Alibaba Cloud, with the
+      open-source version offering various scales ranging from 500 million to
+      110 billion parameters. These models are based on the Transformer
+      architecture and use multi-layer self-attention mechanisms, allowing them
+      to efficiently handle long texts and complex language data.
+    assets:
+      models:
+        - owner: openmind
+          name: qwen1.5_7b_chat_pt
+        - owner: MindSpore-Lab
+          name: Qwen-VL
+        - owner: MindSpore-Lab
+          name: qwen_7b_base
+        - owner: openmind
+          name: qwen1.5_7b_pt
+        - owner: MindSpore-Lab
+          name: qwen_14b_base
+        - owner: PyTorch-NPU
+          name: qwen_for_Pytorch
+        - owner: liziyin
+          name: qwen_14b_base
+  - logo: imgs/logo-zhipuAI.png
+    name_zh: 智谱·AI
+    name_en: Zhipu AI
+    desc_zh: >-
+      ChatGLM（Chat Generative Language Model）是由清华大学KEG实验室和智谱AI（Zhipu
+      AI）联合开发的一种大规模预训练语言模型，专注于对话生成和自然语言处理（NLP）任务。ChatGLM-6B
+      是一个开源的、支持中英双语问答的对话语言模型，而ChatGLM2-6B 和 ChatGLM3-6B 分别是 ChatGLM-6B
+      的第二代和第三代版本。
+    desc_en: >-
+      Chat Generative Language Model (ChatGLM) is a large-scale pre-trained
+      language model jointly developed by the KEG Lab of Tsinghua University and
+      Zhipu AI, focusing on conversation generation and NLP tasks. ChatGLM-6B is
+      an open-source conversational language model that supports Q&A in Chinese
+      and English. ChatGLM2-6B and ChatGLM3-6B are the second-generation and
+      third-generation versions of ChatGLM-6B respectively.
+    assets:
+      models:
+        - owner: openmind
+          name: chatglm2_6b_pt
+        - owner: openmind
+          name: chatglm3_6b_pt
+        - owner: openmind
+          name: glm2_6b_ms
+        - owner: MindSpore-Lab
+          name: glm2_6b
+        - owner: MindSpore-Lab
+          name: glm3_6b
+        - owner: PyTorch-NPU
+          name: VisualGLM
+  - logo: imgs/logo-LLaMA.png
+    name_zh: LLaMA系列
+    name_en: LLaMA Models
+    desc_zh: >-
+      LLaMA（Large Language Model Meta AI）系列模型是由 Meta
+      开发公布的一系列大规模预训练语言模型，其规模从70亿到700亿参数不等。LLaMA模型包括多个版本，涵盖了不同的参数规模和应用场景。Llama2
+      包含7B、13B和70B等。Llama3系列提供了 8B 和 70B 的规模。
+    desc_en: >-
+      Large Language Model Meta AI (LLaMA) models are a series of large-scale
+      pre-trained LLMs developed and launched by Meta. LLaMA models include
+      multiple versions, covering different parameter scales and application
+      scenarios. The LLaMA2 includes 7B, 13B, 70B, and more. LLaMA3 models are
+      available at 8B and 70B scales.
+    assets:
+      models:
+        - owner: openmind
+          name: llama_7b_ms
+        - owner: openmind
+          name: open_llama_7b
+        - owner: HaM
+          name: Llama3-8B-Chinese-Chat
+        - owner: OpenSource
+          name: llama_counter
+        - owner: PyTorch-NPU
+          name: llama_for_Pytorch
+        - owner: MindSpore-Lab
+          name: llama_7b
+        - owner: MindSpore-Lab
+          name: codellama_34b
+  - logo: imgs/logo-Gemma.png
+    name_zh: Gemma
+    name_en: Gemma
+    desc_zh: >-
+      Gemma 是一个先进的轻量级开放模型系列，由Google DeepMind和Google其他团队基于 Google Gemini
+      模型进行研究和开发，并用拉丁语中意为“宝石”的gemma为其命名。Gemma
+      7B模型的预训练数据高达6万亿Token，也证明了通过大量的高质量数据训练，小模型也可以持续提升，取得好的效果。
+    desc_en: >-
+      Gemma, developed by Google DeepMind and other teams, is a family of
+      lightweight, state-of-the-art open models built from the same research and
+      technologies used to create the Gemini models. With the pre-training data
+      volume of 6 trillion tokens, Gemma 7B has demonstrated that a small model
+      can be continuously improved and achieve satisfying results through
+      trainings on a large amount of high-quality data.
+    assets:
+      models:
+        - owner: openmind
+          name: gemma_7b_it_pt
+  - name_zh: Phi-3
+    name_en: Phi-3
+    desc_zh: >-
+      Phi-3是 Microsoft 开发的一系列开放式 AI 模型，是一个功能强大、成本效益高的小语言模型
+      (SLM)，在各种语言、推理、编码和数学基准测试中，在同级别参数模型中性能表现优秀。
+    desc_en: >-
+      Phi-3 open models are a family of powerful, small language models (SLMs)
+      with groundbreaking performance at low cost. It outperforms other
+      parametric models of a similar size in various languages, inference,
+      coding, and mathematical benchmarks.
+    assets:
+      models:
+        - owner: OpenSource
+          name: Phi-3-vision-128k-instruct
+        - owner: OpenSource
+          name: xgen-mm-phi3-mini-instruct-r-v1
+  - logo: imgs/logo-deepseek.png
+    name_zh: deepseek
+    name_en: Deepseek
+    desc_zh: >-
+      DeepSeek模型是由人工智能公司深度求索(DeepSeek)公司开发的一系列强大的人工智能模型。这些模型采用Transformer架构，并针对不同的任务进行了优化,包括
+      math，code，llm，moe 等模型。
+    desc_en: >-
+      DeepSeek models, including DeepSeek-Math, DeepSeek-Coder, DeepSeek-LLM,
+      and DeepSeek-MoE, are developed by the AI company DeepSeek based on the
+      Transformer architecture and are optimized for a variety of tasks.
+    assets:
+      models:
+        - owner: HaM
+          name: deepseek-coder-6_7b-instruct
+        - owner: HaM
+          name: deepseek_coder_33b_instruct
+  - logo: imgs/logo-skywork.png
+    name_zh: 昆仑天工
+    name_en: Kunlun SkyWork
+    desc_zh: >-
+      昆仑天工模型是由昆仑万维和奇点智源公司合作研发的一款国产的双千亿级大语言模型。它覆盖了图像、文本、编程等多模态内容生成能力，包括绘画、文章续写、对话、中英翻译、内容风格生成、推理、诗词对联、代码补全等。
+    desc_en: >-
+      The Kunlun SkyWork, a 200-billion-level LLM, jointly developed by Kunlun
+      Tech and the leading AI team SINGULARITY AI, offers multimodal content
+      (images, text, and programming) generation capabilities for various tasks,
+      including painting, writing, conversation, Chinese-English translation,
+      content style generation, inference, poetry and couplet creation, and code
+      completion.
+    assets:
+      models:
+        - owner: MindSpore-Lab
+          name: skywork_13b_base
+  - logo: imgs/logo-mistral.png
+    name_zh: mistral
+    name_en: Mistral
+    desc_zh: >-
+      Mistral模型是一种基于Transformer架构的大型语言模型，具有7B参数。它采用了滑动窗口注意力（Sliding Window
+      Attention）、滚动缓冲区缓存（Rolling Buffer Cache）和预填充与分块（Pre-fill &
+      Chunking）等技术，以提升效率和性能。这些技术使得Mistral能够高效处理长序列数据，同时降低计算成本。
+    desc_en: >-
+      As a Transformer-based LLM, Mistral is trained on 7B parameters. It uses
+      technologies such as Sliding Window Attention, Rolling Buffer Cache, and
+      Pre-fill and Chunking to improve efficiency and performance. These
+      technologies enable Mistral to efficiently processing long sequence data
+      while reducing computational costs.
+    assets:
+      models:
+        - owner: tangyunxiang
+          name: mistral_7b_it_v0.2_pt
+        - owner: tangyunxiang
+          name: mistral_7b_v0.1_pt
+        - owner: tangyunxiang
+          name: mistral_7b_it_v0.1_pt
+        - owner: PyTorch-NPU
+          name: mixtral_for_Pytorch
+  - logo: imgs/logo-bloom.png
+    name_zh: bloom
+    name_en: BLOOM
+    desc_zh: >-
+      BLOOM（BigScience Large Open-science Open-access Multilingual Language
+      Model）是由BigScience项目开发的一种大规模多语言预训练语言模型，拥有超过1760亿参数。该模型在训练过程中采用了多种技术，包括去噪、模型蒸馏等，以提高模型的性能和效率。
+    desc_en: >-
+      With its 176 billion parameters, BLOOM, standing for BigScience Large
+      Open-science Open-access Multilingual Language Model, implements many
+      technologies in its training process, including denoising and model
+      distillation, to improve model performance and efficiency.
+    assets:
+      models:
+        - owner: openmind
+          name: bloom_1b1_pt
+        - owner: openmind
+          name: bloom_1b7_pt
+        - owner: openmind
+          name: bloom_3b_pt
+        - owner: openmind
+          name: bloom_7b1_pt
+        - owner: PyTorch-NPU
+          name: bloom_for_Pytorch
+  - logo: imgs/logo-aquila.png
+    name_zh: 悟道·天鹰
+    name_en: Wudao Aquila
+    desc_zh: >-
+      悟道天鹰模型是由中国的北京智源人工智能研究院（BAAI）开发的一系列大规模预训练语言模型。悟道・天鹰Aquila语言大模型是第一个中英文双语大模型，支持商用、符合数据合规要求，在中英高质量合规的语料数据库基础上从零开始训练。
+    desc_en: >-
+      Developed by Beijing Academy of Artificial Intelligence (BAAI), Wudao
+      Aquila is the first large-scale pre-trained Chinese-English LLM. Trained
+      from scratch using high-quality and compliant Chinese/English corpora, it
+      is a commercially usable model that complies with data requirements.
+    assets:
+      models:
+        - owner: PyTorch-NPU
+          name: aquila_for_Pytorch
+  - name_zh: bert 及其变体系列
+    name_en: BERT and Its Variants
+    desc_zh: >-
+      BERT（Bidirectional Encoder Representations from Transformers）是由Google AI
+      Language团队开发的一种基于Transformer架构的自然语言处理（NLP）模型。BERT及其变体在多个NLP任务中表现出色，推动了预训练语言模型的发展。
+    desc_en: >-
+      Bidirectional Encoder Representations from Transformers (BERT) is a
+      natural language processing (NLP) model developed by the Google AI
+      Language team based on the Transformer architecture. BERT and its variants
+      have demonstrated outstanding performance in multiple NLP tasks, driving
+      the development of pre-trained language models.
+    assets:
+      models:
+        - owner: openmind
+          name: albert_base_v2_pt
+        - owner: PyTorch-NPU
+          name: albert_ID0335_for_PyTorch
+        - owner: openmind
+          name: albert_large_v2_pt
+        - owner: openmind
+          name: albert_xlarge_v2_pt
+        - owner: openmind
+          name: albert_xxlarge_v2_pt
+        - owner: PyTorch-NPU
+          name: BERT-NER-Pytorch
+        - owner: PyTorch-NPU
+          name: Bert-Squad_ID0470_for_PyTorch
+        - owner: openmind
+          name: bert_base_cased_pt
+        - owner: openmind
+          name: bert_base_uncased_pt
+        - owner: PyTorch-NPU
+          name: Bert_Chinese_ID3433_for_PyTorch
+        - owner: openmind
+          name: bert_large_uncased_pt
+        - owner: openmind
+          name: deberta_base_pt
+        - owner: openmind
+          name: deberta_v2_xlarge_pt
+        - owner: openmind
+          name: deberta_v3_base_pt
+        - owner: openmind
+          name: rembert_pt
+        - owner: openmind
+          name: roberta_base_pt
+        - owner: openmind
+          name: roberta_base_squad2_pt
+        - owner: PyTorch-NPU
+          name: roberta_for_PyTorch
+        - owner: openmind
+          name: xlm_roberta_base_pt
+  - name_zh: Falcon
+    name_en: Falcon
+    desc_zh: >-
+      Falcon系列模型是由TII（Technology Innovation
+      Institute）开发的一系列基于Transformer架构的自然语言处理（NLP）模型。
+    desc_en: >-
+      The Falcon series are a set of natural language processing (NLP) models
+      developed by the Technology Innovation Institute (TII) based on the
+      Transformer architecture.
+    assets:
+      models:
+        - owner: openmind
+          name: falcon_7b_pt
+  - logo: imgs/logo-GPT.png
+    name_zh: GPT系列
+    name_en: GPT Models
+    desc_zh: >-
+      GPT（Generative Pre-trained
+      Transformer）系列模型是由OpenAI开发的一系列基于Transformer架构的自然语言处理（NLP）模型。GPT模型以其强大的文本生成和理解能力而闻名，广泛应用于各种NLP任务，如著名的
+      ChatGPT 生成式人工智能应用程序。
+    desc_en: >-
+      The Generative Pre-trained Transformer (GPT) series are a set of natural
+      language processing (NLP) models developed by OpenAI based on the
+      Transformer architecture. GPT models are highly regarded for their robust
+      text generation and comprehension capabilities, making them a popular
+      choice for a variety of NLP tasks. One notable example is ChatGPT, a
+      generative AI application.
+    assets:
+      models:
+        - owner: MindSpore-Transformers
+          name: gpt2_13b
+        - owner: openmind
+          name: gpt2_pt
+        - owner: openmind
+          name: openai_gpt_pt
+  - logo: imgs/logo-moss.png
+    name_zh: moss
+    name_en: MOSS
+    desc_zh: >-
+      MOSS是国内第一个发布的对话式大型语言模型，也是一个支持中英双语和多种插件的开源对话语言模型，比如搜索引擎，绘画插件，方程求解器等多种外部插件，能提供更多的服务给用户。
+    desc_en: >-
+      MOSS is the first large-scale conversational language model released in
+      China, which is also an open-source model that supports both Chinese and
+      English languages, as well as multiple plugins including search engines,
+      painting plugins, and equation solvers. With its versatility, MOSS can
+      offer a wider range of services to its users.
+    assets:
+      models:
+        - owner: openmind
+          name: moss_moon_003_base_pt

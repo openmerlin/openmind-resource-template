@@ -1,0 +1,31 @@
+id: telecom
+type: organization
+logo: imgs/logo.png
+cover: imgs/cover.png
+banner: imgs/banner.jpg
+color: "#058EF0"
+name_zh: 电信专区
+name_en: China Telecom
+desc_zh: >-
+  欢迎来到WitGather（翼启）电信专区！这里汇聚了涵盖翻译、语音识别、图像分类等领域的丰富数据集，精心打造了专为人工智能任务设计的模型库。此外，我们还构建了多功能体验空间，助您迅速体验并实践各类应用程序。立即启程，探索智能科技的无限可能！
+desc_en: >-
+  Welcome to WitGather. We offer an extensive collection of datasets that cover
+  translation, speech recognition, and image classification. Additionally, we
+  provide a model library specifically designed for AI tasks. Start now to
+  explore the infinite possibilities of smart technologies.
+detail:
+  logo: imgs/logo.png
+  name_zh: 中国电信集团有限公司
+  name_en: China Telecom Corporation Limited
+  desc_zh: >-
+    中国电信集团有限公司是全球领先的通信服务提供商，致力于通过创新技术和服务，不断探索5G、云计算、大数据、人工智能等领域，为个人、企业和政府机构提供全面的通信解决方案。集团认真履行企业社会责任，力图构建一个更加开放、包容和安全的数字世界。
+  desc_en: >-
+    As one of the top communications service providers in the world, our company
+    is deeply committed to advancing 5G, cloud computing, big data, and AI
+    technologies through innovative solutions. We provide individuals,
+    enterprises, and government organizations with comprehensive communication
+    services. Moreover, we actively embrace corporate social responsibility,
+    aiming to create an open, inclusive, and secure digital environment.
+  assets_origins:
+    - State_Cloud
+    - TeleAI
