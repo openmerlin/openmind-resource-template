@@ -3,7 +3,7 @@ type: organization
 logo: imgs/logo.png
 cover: imgs/cover.png
 banner: imgs/banner.jpg
-color: "#058EF0"
+color: #058EF0
 name_zh: 电信专区
 name_en: China Telecom
 desc_zh: >-
@@ -27,5 +27,8 @@ detail:
     services. Moreover, we actively embrace corporate social responsibility,
     aiming to create an open, inclusive, and secure digital environment.
   assets_origins:
+    - State_Cloud
+    - TeleAI
+  contributors_origins:
     - State_Cloud
     - TeleAI
