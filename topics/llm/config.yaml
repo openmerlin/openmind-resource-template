@@ -3,7 +3,7 @@ type: content
 logo: imgs/logo.svg
 cover: imgs/cover.png
 banner: imgs/banner.jpg
-color: "#5478FB"
+color: #5478FB
 name_zh: 大语言模型
 name_en: Large Language Models
 desc_zh: 大语言模型(LLM)是一种旨在理解和生成人类语言的人工智能模型，包含：百川、通义千问、ChatGLM、Llama等。
