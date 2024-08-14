@@ -1,0 +1,34 @@
+{
+    "base_image": [
+        {
+            "name": "CANN",
+            "logo": "./image/cann.jpg",
+            "description": "CANN is the AI compute framwork for Ascend.",
+            "docker_pull_command": "docker pull image.telecom.openmind.cn/baseimage/cann",
+            "base_info": {
+                "os": "openEuler",
+                "arch": ["x86_64", "aarch64"]
+            },
+            "quick_start": "./docs/cann_quick_start.md",
+            "how_to_use": "./docs/cann_how_to_use.md",
+            "tags": [
+                {
+                    "version": "8.0.0",
+                    "size": "102MB",
+                    "hash": "sha256:xxx",
+                    "arch": [
+                        {
+                            "name": "x86_64",
+                            "size": "100MB"
+                        },
+                        {
+                            "name": "aarch64",
+                            "size": "102MB"
+                        }
+                    ],
+                    "docker_pull_command": "docker pull image.telecom.openmind.cn/baseimage/cann:8.0.0"
+                }
+            ]
+        }
+    ]
+}
