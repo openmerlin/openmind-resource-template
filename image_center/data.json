@@ -2,31 +2,37 @@
     "base_image": [
         {
             "name": "CANN",
-            "logo": "./image/cann.jpg",
+            "label": ["CANN", "训练"],
             "description": "CANN is the AI compute framwork for Ascend.",
-            "docker_pull_command": "docker pull image.telecom.openmind.cn/baseimage/cann",
+            "update_time": "2024/08/13",
             "base_info": {
-                "os": "openEuler",
-                "arch": ["x86_64", "aarch64"]
+                "os": ["openEuler", "Ubuntu"],
+                "arch": ["x86_64", "aarch64"],
+                "type": "base_image",
             },
             "quick_start": "./docs/cann_quick_start.md",
             "how_to_use": "./docs/cann_how_to_use.md",
+            "docker_pull_command": "docker pull image.telecom.openmind.cn/baseimage/cann",
             "tags": [
                 {
                     "version": "8.0.0",
+                    "update_time": "2024/08/13",
                     "size": "102MB",
-                    "hash": "sha256:xxx",
-                    "arch": [
+                    "docker_pull_command": "docker pull image.telecom.openmind.cn/baseimage/cann:8.0.0"
+                    "manifest": [
                         {
-                            "name": "x86_64",
-                            "size": "100MB"
+                            "hash": "sha256:xxx",
+                            "os_arch": "openEuler/x86_64",
+                            "size": "100MB",
+                            "update_time": "2024/08/13",
                         },
                         {
-                            "name": "aarch64",
-                            "size": "102MB"
+                            "hash": "sha256:xxx",
+                            "os_arch": "openEuler/aarch64",
+                            "size": "102MB",
+                            "update_time": "2024/08/12",
                         }
                     ],
-                    "docker_pull_command": "docker pull image.telecom.openmind.cn/baseimage/cann:8.0.0"
                 }
             ]
         }
