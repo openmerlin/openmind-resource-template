@@ -1,0 +1,37 @@
+id: siliconflow
+type: organization
+logo: imgs/logo.png
+cover: imgs/cover.png
+banner: imgs/banner.jpg
+color: '#058EF0'
+name_zh: 硅基流动专区
+name_en: SiliconFlow
+desc_zh: >-
+  欢迎来到硅基流动专区！这里有多款基于 SiliconCloud 提供的主流开源大模型，助您轻松实现不同应用场景的模型自由切换。
+
+  此外，基于图片/视频生成推理引擎 SiliconDiff，我们提供了 3 款 StableDiffusion 模型的 API 服务，快来感受
+  SiliconDiff 带来的超速体验！
+desc_en: >-
+  Welcome to SiliconFlow! Here, you can find SiliconCloud-based mainstream
+  foundation models for various application scenarios.
+
+  In addition, powered by SiliconDiff (the inference engine for image/video
+  generation), three StableDiffusion model API services are provided for you to
+  experience the blazing-fast SiliconDiff.
+detail:
+  logo: imgs/logo-detail.png
+  name_zh: ''
+  name_en: ''
+  desc_zh: >-
+    硅基流动致力于打造规模化、标准化、高效能 AI Infra 平台，其核心产品一站式大模型云服务平台 SiliconCloud，基于大语言模型推理引擎
+    SiliconLLM 及高性能图片/视频生成引擎
+    OneDiff，实现大模型高效推理加速，助力开发者和企业聚焦产品创新，无须担心产品大规模推广所带来的高昂算力成本。
+  desc_en: >-
+    SiliconFlow is committed to building a scalable, standardized, and
+    high-performance AI Infra platform. It offers SiliconCloud (the model cloud
+    service platform), SiliconLLM (the LLM inference engine), and OneDiff (the
+    high-performance text-to-image/video acceleration library). These solutions
+    help enterprises and individual users deploy AI models efficiently and
+    cost-effectively.
+  assets_origins:
+    - SiliconFlow
