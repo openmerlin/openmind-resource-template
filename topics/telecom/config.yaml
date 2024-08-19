@@ -3,7 +3,7 @@ type: organization
 logo: imgs/logo.png
 cover: imgs/cover.png
 banner: imgs/banner.jpg
-color: #058EF0
+color: '#058EF0'
 name_zh: 电信专区
 name_en: China Telecom
 desc_zh: >-
