@@ -3,7 +3,7 @@ type: organization
 logo: imgs/logo.png
 cover: imgs/cover.png
 banner: imgs/banner.jpg
-color: '#058EF0'
+color: #058EF0
 name_zh: 硅基流动专区
 name_en: SiliconFlow
 desc_zh: >-
