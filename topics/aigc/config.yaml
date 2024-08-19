@@ -3,7 +3,7 @@ type: content
 logo: imgs/logo.svg
 cover: imgs/cover.png
 banner: imgs/banner.jpg
-color: '#C00016'
+color: #C00016
 name_zh: AIGC专题
 name_en: AIGC
 desc_zh: >-

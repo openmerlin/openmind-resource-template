@@ -3,7 +3,7 @@ type: content
 logo: imgs/logo.png
 cover: imgs/cover.png
 banner: imgs/banner.jpg
-color: '#CF5803'
+color: #CF5803
 name_zh: 昇腾专区
 name_en: Ascend
 desc_zh: >-
