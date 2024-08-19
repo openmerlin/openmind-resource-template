@@ -12,5 +12,5 @@ docker run \
     -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \
     -v /etc/ascend_install.info:/etc/ascend_install.info \
     -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \
-    -ti registry.telecom.openmind.cn/base_image/cann bash
+    -ti registry.telecom.openmind.cn/base_image/pytorch bash
 ```
