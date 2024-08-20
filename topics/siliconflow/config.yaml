@@ -4,7 +4,7 @@ logo: imgs/logo.png
 cover: imgs/cover.png
 banner: imgs/banner.jpg
 color: #058EF0
-name_zh: 硅基流动专区
+name_zh: 硅基流动
 name_en: SiliconFlow
 desc_zh: >-
   欢迎来到硅基流动专区！这里有多款基于 SiliconCloud 提供的主流开源大模型，助您轻松实现不同应用场景的模型自由切换。

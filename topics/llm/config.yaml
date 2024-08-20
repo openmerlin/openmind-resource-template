@@ -56,8 +56,6 @@ detail:
       version has undergone SFT and RLHF training.
     assets:
       models:
-        - owner: openmind
-          name: internlm2_chat_7b
         - owner: MindSpore-Lab
           name: internlm_7b_chat
         - owner: MindSpore-Lab
@@ -90,24 +88,6 @@ detail:
       models:
         - owner: HaM
           name: yi_34b_chat
-  - name_zh: BlueLM系列
-    name_en: BlueLM Models
-    desc_zh: >-
-      BlueLM系列模型是vivo
-      AI全球研究院自主研发的大规模预训练语言模型，具有强大的语言理解能力。BlueLM系列模型包含多个参数量级，如十亿、百亿、千亿和70亿，以满足不同场景的需求。其中，7B和1B模型支持高通和联发科双平台，适用于端侧场景；而70B、130B和175B模型则面向云端服务和复杂逻辑推理等应用场景。
-    desc_en: >-
-      BlueLM models are large-scale pre-trained language models  independently
-      developed by Vivo's Global AI R&D Center, featuring powerful language
-      comprehension capabilities. To meet the needs of different scenarios,
-      BlueLM models can process parameters at various scales, billions, tens of
-      billions, even hundreds of billions. Among them, the 7B and 1B models
-      support both Qualcomm and MediaTek platforms, making them suitable for
-      edge-side scenarios. Meanwhile, the 70B, 130B, and 175B models are
-      designed for cloud services and complex logical inference applications.
-    assets:
-      models:
-        - owner: openmind
-          name: bluelm_7b_chat_pt
   - logo: imgs/logo-baichuan.png
     name_zh: 百川
     name_en: Baichuan Models
@@ -122,30 +102,16 @@ detail:
       general and domain-specific benchmarks.
     assets:
       models:
-        - owner: openmind
-          name: baichuan2_7b_chat_ms
-        - owner: openmind
-          name: baichuan2_7b_chat_pt
-        - owner: openmind
-          name: baichuan2_13b_chat_pt
-        - owner: openmind
-          name: baichuan2_13b_base_pt
         - owner: MindSpore-Lab
           name: baichuan2_7b_chat
-        - owner: openmind
-          name: baichuan_7b_pt
         - owner: MindSpore-Lab
           name: baichuan2_13b_base
         - owner: MindSpore-Lab
           name: baichuan2_13b_chat
-        - owner: openmind
-          name: baichuan2_7b_base_pt
         - owner: niujunhao
           name: baichuan2_13b_chat
         - owner: MindSpore-Lab
           name: baichuan2_7b_base
-        - owner: PyTorch-NPU
-          name: baichuan_for_Pytorch
   - logo: imgs/logo-qwen.png
     name_zh: 通义千问
     name_en: Tongyi Qianwen
@@ -159,18 +125,12 @@ detail:
       to efficiently handle long texts and complex language data.
     assets:
       models:
-        - owner: openmind
-          name: qwen1.5_7b_chat_pt
         - owner: MindSpore-Lab
           name: Qwen-VL
         - owner: MindSpore-Lab
           name: qwen_7b_base
-        - owner: openmind
-          name: qwen1.5_7b_pt
         - owner: MindSpore-Lab
           name: qwen_14b_base
-        - owner: PyTorch-NPU
-          name: qwen_for_Pytorch
         - owner: liziyin
           name: qwen_14b_base
   - logo: imgs/logo-zhipuAI.png
@@ -190,12 +150,6 @@ detail:
       third-generation versions of ChatGLM-6B respectively.
     assets:
       models:
-        - owner: openmind
-          name: chatglm2_6b_pt
-        - owner: openmind
-          name: chatglm3_6b_pt
-        - owner: openmind
-          name: glm2_6b_ms
         - owner: MindSpore-Lab
           name: glm2_6b
         - owner: MindSpore-Lab
@@ -217,38 +171,14 @@ detail:
       available at 8B and 70B scales.
     assets:
       models:
-        - owner: openmind
-          name: llama_7b_ms
-        - owner: openmind
-          name: open_llama_7b
         - owner: HaM
           name: Llama3-8B-Chinese-Chat
         - owner: OpenSource
           name: llama_counter
-        - owner: PyTorch-NPU
-          name: llama_for_Pytorch
         - owner: MindSpore-Lab
           name: llama_7b
         - owner: MindSpore-Lab
           name: codellama_34b
-  - logo: imgs/logo-Gemma.png
-    name_zh: Gemma
-    name_en: Gemma
-    desc_zh: >-
-      Gemma 是一个先进的轻量级开放模型系列，由Google DeepMind和Google其他团队基于 Google Gemini
-      模型进行研究和开发，并用拉丁语中意为“宝石”的gemma为其命名。Gemma
-      7B模型的预训练数据高达6万亿Token，也证明了通过大量的高质量数据训练，小模型也可以持续提升，取得好的效果。
-    desc_en: >-
-      Gemma, developed by Google DeepMind and other teams, is a family of
-      lightweight, state-of-the-art open models built from the same research and
-      technologies used to create the Gemini models. With the pre-training data
-      volume of 6 trillion tokens, Gemma 7B has demonstrated that a small model
-      can be continuously improved and achieve satisfying results through
-      trainings on a large amount of high-quality data.
-    assets:
-      models:
-        - owner: openmind
-          name: gemma_7b_it_pt
   - name_zh: Phi-3
     name_en: Phi-3
     desc_zh: >-
@@ -318,45 +248,6 @@ detail:
           name: mistral_7b_v0.1_pt
         - owner: tangyunxiang
           name: mistral_7b_it_v0.1_pt
-        - owner: PyTorch-NPU
-          name: mixtral_for_Pytorch
-  - logo: imgs/logo-bloom.png
-    name_zh: bloom
-    name_en: BLOOM
-    desc_zh: >-
-      BLOOM（BigScience Large Open-science Open-access Multilingual Language
-      Model）是由BigScience项目开发的一种大规模多语言预训练语言模型，拥有超过1760亿参数。该模型在训练过程中采用了多种技术，包括去噪、模型蒸馏等，以提高模型的性能和效率。
-    desc_en: >-
-      With its 176 billion parameters, BLOOM, standing for BigScience Large
-      Open-science Open-access Multilingual Language Model, implements many
-      technologies in its training process, including denoising and model
-      distillation, to improve model performance and efficiency.
-    assets:
-      models:
-        - owner: openmind
-          name: bloom_1b1_pt
-        - owner: openmind
-          name: bloom_1b7_pt
-        - owner: openmind
-          name: bloom_3b_pt
-        - owner: openmind
-          name: bloom_7b1_pt
-        - owner: PyTorch-NPU
-          name: bloom_for_Pytorch
-  - logo: imgs/logo-aquila.png
-    name_zh: 悟道·天鹰
-    name_en: Wudao Aquila
-    desc_zh: >-
-      悟道天鹰模型是由中国的北京智源人工智能研究院（BAAI）开发的一系列大规模预训练语言模型。悟道・天鹰Aquila语言大模型是第一个中英文双语大模型，支持商用、符合数据合规要求，在中英高质量合规的语料数据库基础上从零开始训练。
-    desc_en: >-
-      Developed by Beijing Academy of Artificial Intelligence (BAAI), Wudao
-      Aquila is the first large-scale pre-trained Chinese-English LLM. Trained
-      from scratch using high-quality and compliant Chinese/English corpora, it
-      is a commercially usable model that complies with data requirements.
-    assets:
-      models:
-        - owner: PyTorch-NPU
-          name: aquila_for_Pytorch
   - name_zh: bert 及其变体系列
     name_en: BERT and Its Variants
     desc_zh: >-
@@ -370,91 +261,13 @@ detail:
       the development of pre-trained language models.
     assets:
       models:
-        - owner: openmind
-          name: albert_base_v2_pt
         - owner: PyTorch-NPU
           name: albert_ID0335_for_PyTorch
-        - owner: openmind
-          name: albert_large_v2_pt
-        - owner: openmind
-          name: albert_xlarge_v2_pt
-        - owner: openmind
-          name: albert_xxlarge_v2_pt
         - owner: PyTorch-NPU
           name: BERT-NER-Pytorch
         - owner: PyTorch-NPU
           name: Bert-Squad_ID0470_for_PyTorch
-        - owner: openmind
-          name: bert_base_cased_pt
-        - owner: openmind
-          name: bert_base_uncased_pt
         - owner: PyTorch-NPU
           name: Bert_Chinese_ID3433_for_PyTorch
-        - owner: openmind
-          name: bert_large_uncased_pt
-        - owner: openmind
-          name: deberta_base_pt
-        - owner: openmind
-          name: deberta_v2_xlarge_pt
-        - owner: openmind
-          name: deberta_v3_base_pt
-        - owner: openmind
-          name: rembert_pt
-        - owner: openmind
-          name: roberta_base_pt
-        - owner: openmind
-          name: roberta_base_squad2_pt
         - owner: PyTorch-NPU
           name: roberta_for_PyTorch
-        - owner: openmind
-          name: xlm_roberta_base_pt
-  - name_zh: Falcon
-    name_en: Falcon
-    desc_zh: >-
-      Falcon系列模型是由TII（Technology Innovation
-      Institute）开发的一系列基于Transformer架构的自然语言处理（NLP）模型。
-    desc_en: >-
-      The Falcon series are a set of natural language processing (NLP) models
-      developed by the Technology Innovation Institute (TII) based on the
-      Transformer architecture.
-    assets:
-      models:
-        - owner: openmind
-          name: falcon_7b_pt
-  - logo: imgs/logo-GPT.png
-    name_zh: GPT系列
-    name_en: GPT Models
-    desc_zh: >-
-      GPT（Generative Pre-trained
-      Transformer）系列模型是由OpenAI开发的一系列基于Transformer架构的自然语言处理（NLP）模型。GPT模型以其强大的文本生成和理解能力而闻名，广泛应用于各种NLP任务，如著名的
-      ChatGPT 生成式人工智能应用程序。
-    desc_en: >-
-      The Generative Pre-trained Transformer (GPT) series are a set of natural
-      language processing (NLP) models developed by OpenAI based on the
-      Transformer architecture. GPT models are highly regarded for their robust
-      text generation and comprehension capabilities, making them a popular
-      choice for a variety of NLP tasks. One notable example is ChatGPT, a
-      generative AI application.
-    assets:
-      models:
-        - owner: MindSpore-Transformers
-          name: gpt2_13b
-        - owner: openmind
-          name: gpt2_pt
-        - owner: openmind
-          name: openai_gpt_pt
-  - logo: imgs/logo-moss.png
-    name_zh: moss
-    name_en: MOSS
-    desc_zh: >-
-      MOSS是国内第一个发布的对话式大型语言模型，也是一个支持中英双语和多种插件的开源对话语言模型，比如搜索引擎，绘画插件，方程求解器等多种外部插件，能提供更多的服务给用户。
-    desc_en: >-
-      MOSS is the first large-scale conversational language model released in
-      China, which is also an open-source model that supports both Chinese and
-      English languages, as well as multiple plugins including search engines,
-      painting plugins, and equation solvers. With its versatility, MOSS can
-      offer a wider range of services to its users.
-    assets:
-      models:
-        - owner: openmind
-          name: moss_moon_003_base_pt

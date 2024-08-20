@@ -28,12 +28,6 @@ detail:
       and Pangu.
     assets:
       models:
-        - owner: openmind
-          name: stable-diffusion-xl-base-1_0_pt
-        - owner: openmind
-          name: SDXL-Lightning
-        - owner: openmind
-          name: stable_diffusion_v1_5
         - owner: PyTorch-NPU
           name: StableDiffusion-XL
         - owner: PyTorch-NPU
@@ -48,8 +42,6 @@ detail:
           name: dit
         - owner: MindSpore-Lab
           name: fit
-        - owner: openmind
-          name: PixArt-alpha
   - name_zh: 文生视频
     name_en: Text-to-Video
     desc_zh: >-
@@ -61,16 +53,6 @@ detail:
       text inputs into dynamic video outputs.
     assets:
       models:
-        - owner: MindSpore-Lab
-          name: opensora-hpcai-1_0
-        - owner: openmind
-          name: Open-Sora
-        - owner: openmind
-          name: OpenSora-STDiT-v2-stage3
-        - owner: openmind
-          name: OpenSora-STDiT-v1-16x256x256
-        - owner: openmind
-          name: OpenSora-STDiT-v1-HQ-16x512x512
         - owner: MindSpore-Lab
           name: latte
         - owner: MindSpore-Lab
@@ -107,9 +89,5 @@ detail:
       especially for tasks like image subtitles and visual Q&A.
     assets:
       models:
-        - owner: mindformers
-          name: blip-2
-        - owner: openmind
-          name: blip-image-captioning-large
         - owner: PyTorch-NPU
           name: BLIP2
