@@ -8,7 +8,7 @@ import torch
 
 def load_model():
     device = "npu:0"
-    model_path = "openmind/baichuan2_7b_chat_pt"
+    model_path = "Baichuan/Baichuan2_7b_chat_pt"
     tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(
         model_path, torch_dtype=torch.bfloat16, trust_remote_code=True
