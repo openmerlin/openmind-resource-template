@@ -1,0 +1,93 @@
+id: aigc
+type: content
+logo: imgs/logo.svg
+cover: imgs/cover.png
+banner: imgs/banner.jpg
+color: #C00016
+name_zh: AIGC专题
+name_en: AIGC
+desc_zh: >-
+  AIGC（AI-Generated
+  Content，人工智能生成内容）是指利用人工智能技术生成各种形式的内容，如文本、图像、音频和视频等。AIGC技术在近年来取得了显著进展，广泛应用于多个领域，如媒体、娱乐、教育、广告和创意产业。
+desc_en: >-
+  AI-Generated Content (AIGC) refers to the use of AI to generate text, images,
+  audio, video, and other content. With great progress in recent years, AIGC is
+  now widely used in media, entertainment, education, advertising, and other
+  creative fields.
+detail:
+  - name_zh: 文生图
+    name_en: Text-to-Image
+    desc_zh: >-
+      文生图属于AIGC(Artificial Intelligence Generated
+      Content,生成式人工智能)一个热门分支，可以根据输入的描述、样本等生成相关的高质量图像，包含Stable
+      Diffusion、pangu等模型。
+    desc_en: >-
+      Text-to-image is a popular branch of Artificial Intelligence Generated
+      Content (AIGC), which can generate high-quality images based on input
+      descriptions and samples. Examples of such models include Stable Diffusion
+      and Pangu.
+    assets:
+      models:
+        - owner: PyTorch-NPU
+          name: StableDiffusion-XL
+        - owner: PyTorch-NPU
+          name: StableDiffusion2.1
+        - owner: MindSpore-Lab
+          name: stable-diffusion-xl-base-1_0
+        - owner: MindSpore-Lab
+          name: stable-diffusion-v2
+        - owner: MindSpore-Lab
+          name: pangu-draw-v3
+        - owner: MindSpore-Lab
+          name: dit
+        - owner: MindSpore-Lab
+          name: fit
+  - name_zh: 文生视频
+    name_en: Text-to-Video
+    desc_zh: >-
+      文生视频（Text-to-Video，简称TTV）是一种将书面文字转换为视频内容的技术。它结合了自然语言处理（NLP）、计算机视觉、图像生成和视频编辑等多种技术，将输入的文本内容转化为动态的视频输出。
+    desc_en: >-
+      Text-to-video (TTV) is an advanced technology that leverages a combination
+      of cutting-edge techniques, including natural language processing (NLP),
+      computer vision, image generation, and video editing, to convert written
+      text inputs into dynamic video outputs.
+    assets:
+      models:
+        - owner: MindSpore-Lab
+          name: latte
+        - owner: MindSpore-Lab
+          name: videocomposer
+        - owner: PyTorch-NPU
+          name: AnimateDiff
+        - owner: MindSpore-Lab
+          name: svd
+        - owner: MindSpore-Lab
+          name: tuneavideo
+  - name_zh: 文生音频
+    name_en: Text-to-Speech
+    desc_zh: >-
+      文生音频（Text-to-Speech，简称TTS）是一种将书面文字转换为语音输出的技术。它利用自然语言处理（NLP）和语音合成技术，将输入的文本内容转化为可以通过扬声器或耳机播放的语音。
+    desc_en: >-
+      Text-to-speech (TTS) is an advanced technology that leverages natural
+      language processing (NLP) and speech synthesis techniques to convert
+      written text inputs into speech that can be played through speakers or
+      headsets.
+    assets:
+      models:
+        - owner: MindSpore-Lab
+          name: fastspeech2
+        - owner: MindSpore-Lab
+          name: wavegrad
+  - name_zh: 图生文
+    name_en: Image-to-Text
+    desc_zh: >-
+      图生文（Tushengwen）指的是能够从图像中生成描述性文本。这类深度学习模型在计算机视觉和自然语言处理的交叉领域中应用广泛，比如在图像字幕、视觉问答等任务中。
+    desc_en: >-
+      Image-to-text refers to the ability to generate descriptive text from
+      images. Such deep learning models are extensively used at the intersection
+      of computer vision and natural language processing (NLP) domains,
+      especially for tasks like image subtitles and visual Q&A.
+    assets:
+      models:
+        - owner: PyTorch-NPU
+          name: BLIP2

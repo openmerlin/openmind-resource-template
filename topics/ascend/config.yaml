@@ -1,0 +1,92 @@
+id: ascend
+type: content
+logo: imgs/logo.png
+cover: imgs/cover.png
+banner: imgs/banner.jpg
+color: #CF5803
+name_zh: 昇腾专区
+name_en: Ascend
+desc_zh: >-
+  欢迎来到昇腾专区！在这里，您可以找到业界领先的昇腾模型和常用数据集，覆盖文本生成、视频生成、自动驾驶等多个领域。此外，还有我们精心打造的体验空间，让您一键体验昇腾的的AI超能力。快来与昇腾一起，开启智能之旅。
+desc_en: >-
+  Welcome to Ascend. We offer cutting-edge Ascend models and widely-used
+  datasets, spanning text generation, video generation, autonomous driving, and
+  more fields. Immerse yourself in dedicated spaces designed to showcase the
+  true power of Ascend AI. Join us on this exciting journey and grow with Ascend
+  AI.
+detail:
+  - logo: imgs/logo-MindSpore.png
+    name_zh: MindSpore-Lab
+    name_en: MindSpore-Lab
+    desc_zh: >-
+      MindSpore-Lab组织基于昇思MindSpore
+      AI框架，充分发挥昇思框架的分布式并行加速和内存优化能力，提供了亲和昇腾架构的大模型预训练、微调、评估、推理部署的全流程解决方案，支持业界主流SOTA大模型开箱即用。
+    desc_en: >-
+      The MindSpore-Lab organization fully leverages the distributed parallel
+      acceleration and memory optimization capabilities of the MindSpore AI
+      framework to provide an E2E solution tailored for Ascend architectures,
+      which covers pre-training, fine-tuning, evaluation, inference, and
+      deployment of foundation models, as well as support for instant use of
+      mainstream SOTA models.
+    assets:
+      models:
+        - owner: MindSpore-Lab
+          name: glm2_6b
+        - owner: MindSpore-Lab
+          name: glm3_6b
+        - owner: MindSpore-Lab
+          name: llama_7b
+        - owner: MindSpore-Lab
+          name: baichuan2_7b_base
+        - owner: MindSpore-Lab
+          name: baichuan2_7b_chat
+        - owner: MindSpore-Lab
+          name: internlm_7b_base
+        - owner: MindSpore-Lab
+          name: internlm_7b_chat
+        - owner: MindSpore-Lab
+          name: qwen_7b_base
+        - owner: MindSpore-Lab
+          name: skywork_13b_base
+        - owner: MindSpore-Lab
+          name: telechat_7b
+      spaces:
+        - owner: MindSpore-Lab
+          name: OpenSora-hpcai
+  - name_zh: PyTorch-NPU
+    name_en: PyTorch-NPU
+    desc_zh: >-
+      PyTorch-NPU组织充分发挥了昇腾的软硬件协同优化能力，提供了基于昇腾适配的开源PyTorch解决方案。支持原生分布式数据并行训练和MindSpeed大模型训练加速能力，解决大模型时代高效算力运用的挑战。
+    desc_en: >-
+      The PyTorch-NPU organization fully leverages the software-hardware
+      collaborative optimization capabilities of Ascend to offer an open-source
+      PyTorch solution that is adapted to Ascend. It supports parallel training
+      of native distributed data and MindSpeed foundation model training
+      acceleration, addressing the challenge of efficiently utilizing computing
+      power in the era of foundation models.
+    assets:
+      models:
+        - owner: PyTorch-NPU
+          name: StableDiffusion-XL
+        - owner: PyTorch-NPU
+          name: LLaVA
+        - owner: PyTorch-NPU
+          name: BLIP2
+        - owner: PyTorch-NPU
+          name: AltClip
+        - owner: PyTorch-NPU
+          name: CLIP_for_PyTorch
+        - owner: PyTorch-NPU
+          name: Bert_Chinese_ID3433_for_PyTorch
+        - owner: PyTorch-NPU
+          name: GLIP_for_PyTorch
+        - owner: PyTorch-NPU
+          name: YOLOV4_ID0396_for_PyTorch
+        - owner: PyTorch-NPU
+          name: MobileNetV3-Large_ID1784_for_PyTorch
+        - owner: PyTorch-NPU
+          name: DeeplabV3_for_Pytorch
+        - owner: PyTorch-NPU
+          name: ReFormer_for_PyTorch
+        - owner: PyTorch-NPU
+          name: intern_for_Pytorch

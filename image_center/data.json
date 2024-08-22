@@ -1,0 +1,64 @@
+{
+    "base_image": [
+        {
+            "name": "CANN",
+            "label": ["CANN", "训练"],
+            "description": "CANN is the AI compute framwork for Ascend.",
+            "update_time": "2024/08/19",
+            "base_info": {
+                "os": ["openEuler"],
+                "arch": ["aarch64"],
+                "type": "base_image"
+            },
+            "quick_start": "/docs/cann_quick_start.md",
+            "how_to_use": "/docs/cann_how_to_use.md",
+            "docker_pull_command": "docker pull registry.telecom.openmind.cn/base_image/cann",
+            "tags": [
+                {
+                    "version": "8.0.0",
+                    "update_time": "2024/08/20",
+                    "size": "2.4GB",
+                    "docker_pull_command": "docker pull registry.telecom.openmind.cn/base_image/cann",
+                    "manifest": [
+                        {
+                            "hash": "sha256:dadf47d488c4d8aeaec46aw8e4f6awc1e81a18e4rwa4awerfavnykufdnm84t48",
+                            "os_arch": "openEuler/aarch64",
+                            "size": "2.4GB",
+                            "update_time": "2024/08/19"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pytorch",
+            "label": ["训练"],
+            "description": "pytorch is the AI compute framwork",
+            "update_time": "2024/08/21",
+            "base_info": {
+                "os": ["openEuler"],
+                "arch": ["aarch64"],
+                "type": "base_image"
+            },
+            "quick_start": "/docs/torch_quick_start.md",
+            "how_to_use": "/docs/torch_how_to_use.md",
+            "docker_pull_command": "docker pull registry.telecom.openmind.cn/base_image/pytorch",
+            "tags": [
+                {
+                    "version": "8.0.0",
+                    "update_time": "2024/08/21",
+                    "size": "3",
+                    "docker_pull_command": "docker pull registry.telecom.openmind.cn/base_image/pytorch",
+                    "manifest": [
+                        {
+                            "hash": "sha256:xr46ea418444444rea2315f1aw2e15rfawdfawe",
+                            "os_arch": "openEuler/aarch64",
+                            "size": "3GB",
+                            "update_time": "2024/08/21"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
