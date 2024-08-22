@@ -22,6 +22,7 @@ detail:
   logo: imgs/logo-detail.png
   name_zh: ''
   name_en: ''
+  href: https://cloud.siliconflow.cn/s/openmind
   desc_zh: >-
     硅基流动致力于打造规模化、标准化、高效能 AI Infra 平台，其核心产品一站式大模型云服务平台 SiliconCloud，基于大语言模型推理引擎
     SiliconLLM 及高性能图片/视频生成引擎
