@@ -1,4 +1,13 @@
-1. 使用参数
+pytorch镜像tag遵循下面的格式：
 
-`--device` 挂载device，挂载昇腾设备
-`-v` 挂载用户目录，以及昇腾驱动目录
+cpu镜像：
+
+pytorch:<os_name>-python<python_version>-pytorch<pytorch_version>
+
+npu镜像：
+
+pytorch:<os_name>-python<python_version>-cann<cann_version>-pytorch<pytorch_version>
+
+可根据tag列表选择需要的镜像
+
+https://pytorch.org/
