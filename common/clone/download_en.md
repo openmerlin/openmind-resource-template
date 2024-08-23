@@ -18,6 +18,6 @@ GIT_LFS_SKIP_SMUDGE=1 git clone [git_https_url]
 When cloning a private repository and pushing submissions, the command line will prompt you to enter your account password. You need to enter an access token in the password field. You can click [Create a token] (/my/tokens). If the repository involves lfs files, multiple verifications may be required.
 
 ```
-Username for 'https://telecom.openmind.cn': username
-Password for 'https://username@telecom.openmind.cn': access token
+Username for '[git_https_url]': username
+Password for 'https://username@[git_https_domain]': access token
 ```
