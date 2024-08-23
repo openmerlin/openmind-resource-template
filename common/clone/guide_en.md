@@ -14,7 +14,7 @@
     ```
 
     > Files of 100MB and above must be managed using git-lfs. The repository tracks common large files by default, including `*.bin, *.safetensors, *.parquet`, etc. For details, see the .gitattributes file. These file types do not need to be tracked manually.
-    > Files of 5G and above must be uploaded through tool chain, see [upload documentation](https://telecom.openmind.cn/docs/zh/openmind-hub-client/basic_tutorial/upload.html).
+    > Files of 5G and above must be uploaded through tool chain, see [upload documentation](/docs/en/openmind-hub-client/basic_tutorial/upload.html).
 
 4. Push files:
 
