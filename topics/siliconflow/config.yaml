@@ -3,8 +3,8 @@ type: organization
 logo: imgs/logo.png
 cover: imgs/cover.png
 banner: imgs/banner.jpg
-color: #058EF0
-name_zh: 硅基流动
+color: #7C3AED
+name_zh: 硅基流动专区
 name_en: SiliconFlow
 desc_zh: >-
   欢迎来到硅基流动专区！这里有多款基于 SiliconCloud 提供的主流开源大模型，助您轻松实现不同应用场景的模型自由切换。
@@ -27,6 +27,13 @@ detail:
     硅基流动致力于打造规模化、标准化、高效能 AI Infra 平台，其核心产品一站式大模型云服务平台 SiliconCloud，基于大语言模型推理引擎
     SiliconLLM 及高性能图片/视频生成引擎
     OneDiff，实现大模型高效推理加速，助力开发者和企业聚焦产品创新，无须担心产品大规模推广所带来的高昂算力成本。
+
+    SiliconCloud
+    SiliconCloud 是硅基流动推出的一站式大模型云服务平台。
+    通过提供更快、更便宜、更全面的主流开源大模型 API 服务，SiliconCloud 希望能打造“大模型 Token 工厂”，
+    帮助开发者真正实现 “Token 自由” 。
+    目前，平台已上架多种大语言模型、向量&重排序模型、包含图片/视频生成的多模态大模型，
+    用户可自由切换适合不同应用场景的模型。其中，Qwen2 (7B)、GLM4 (9B)、Yi1.5（9B）等顶尖开源大模型永久免费。
   desc_en: >-
     SiliconFlow is committed to building a scalable, standardized, and
     high-performance AI Infra platform. It offers SiliconCloud (the model cloud
@@ -34,5 +41,42 @@ detail:
     high-performance text-to-image/video acceleration library). These solutions
     help enterprises and individual users deploy AI models efficiently and
     cost-effectively.
+
+    SiliconCloud
+    SiliconCloud is a one-stop cloud service platform for large models launched by SiliconFlow. 
+    By providing faster, cheaper, and more comprehensive API services for mainstream open-source
+    large models, SiliconCloud aims to create a "Large Model Token Factory" to help developers
+    truly achieve "Token Freedom". Currently, the platform has a variety of large language models,
+    embedding & re-ranking models, and multimodal large models that include image/video generation.
+    Users can freely switch between models suitable for different application scenarios.
+    Among them, Qwen2 (7B), GLM4 (9B), and Yi1.5 (9B) are top open-source large models that are free.
   assets_origins:
     - SiliconFlow
+  assets:
+    spaces:
+      - owner: SiliconFlow
+        name: stable-diffusion-2-1
+      - owner: SiliconFlow
+        name: stable-diffusion-xl-base-1.0
+      - owner: SiliconFlow
+        name: stable-diffusion-3-medium
+      - owner: SiliconFlow
+        name: FLUX.1-schnell
+      - owner: SiliconFlow
+        name: DeepSeek-V2-Chat
+      - owner: SiliconFlow
+        name: Qwen2-72B-Instruct
+      - owner: SiliconFlow
+        name: glm-4-9b-chat
+      - owner: SiliconFlow
+        name: Qwen2-57B-A14B-Instruct
+      - owner: SiliconFlow
+        name: DeepSeek-Coder-V2-Instruct
+      - owner: SiliconFlow
+        name: Yi-1.5-34B-Chat-16K
+      - owner: SiliconFlow
+        name: Yi-1.5-9B-Chat-16K
+      - owner: SiliconFlow
+        name: Yi-1.5-6B-Chat-16K
+      - owner: SiliconFlow
+        name: Qwen2-7B-Instruct
