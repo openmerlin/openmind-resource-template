@@ -1,6 +1,6 @@
 cann镜像tag遵循下面的格式：
 
-cann:<os_name>-python<python_version>-cann<cann_version>
+ - cann:<os_name>-python<python_version>-cann<cann_version>
 
 可根据tag列表选择需要的镜像
 
