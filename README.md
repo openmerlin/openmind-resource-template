@@ -8,5 +8,5 @@ openmind-resource-template主要负责openmind使用的模型 数据集 体验�
 | image_center | 镜像中心 | 秦政 |
 | model/use | xxx | xxx |
 | space | 体验空间 | 崔明 |
-| topics | xxx | xxx|
+| topics | 专区 | 付勇|
 
