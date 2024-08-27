@@ -196,7 +196,7 @@
                     "manifest": [
                         {
                             "hash": "sha256:eabc7019bbf48c3151f18fcc6281d174dd8468bc1326b7131866cdd09a1fe20c",
-                            "os_arch": "openEuler/aarch64",
+                            "os_arch": "openEuler/amd64",
                             "size": "592.3 MB",
                             "update_time": "2024/08/22"
                         }
