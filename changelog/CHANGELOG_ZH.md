@@ -1,39 +1,53 @@
-# Changelog
-该项目所有显著的变化都将记录在此文件中，并会通过链接引导至体验地图。
+# 更新日志
 
-## [1.0.0] - 2024-08-28
-## 新特性介绍
+## 1.0.0版本 - 2024-08-28
+🎉 Hello, World! 
 
-### [模型库模块](https://modelers.cn/docs/zh/community/models/overview.html)
-魔乐社区提供了大量用于各种机器学习任务的模型库。
-1. 作为用户，您可以[创建，删除](https://modelers.cn/docs/zh/best-practices/community_contribution/model_contribution.html)，[管理](https://modelers.cn/docs/zh/community/repositories/repository_settings.html)，[下载](https://modelers.cn/docs/zh/community/models/downloading_models.html)模型库中的内容。
-2. 作为模型开发者，您可以通过[模型可用性测试](https://modelers.cn/docs/zh/community/models/verifying_models.html)验证模型在昇腾算力上的运行情况
+魔乐社区1.0版本正式上线，您可以访问[体验地图](https://modelers.cn/roadmaps)，了解社区提供的整体能力。
+## 新板块
+#### 🌟模型库版块
+模型库汇集了大量用于机器学习任务的模型，您可以在这里下载最新、最流行的模型，也可以创建自己的模型。
+- 模型总览：支持通过任务、框架等标签快速筛选模型，支持通过模型专区看到更多精选模型。
+- 基础功能：支持添加介绍、文件、讨论区等，帮助您全方位展示您的模型。
+- 模型上传与下载：支持Git（含LFS）、Hub Client等场景方式上传、下载模型。
+- 模型可用性测试：支持通过[模型可用性测试](https://modelers.cn/docs/zh/community/models/verifying_models.html)验证模型在昇腾算力上的运行情况。
 
-### [数据集模块](https://modelers.cn/docs/zh/community/datasets/overview.html)
-魔乐社区提供了多领域的数据集，可用于翻译、语音识别和图像分类等任务。
-1. 作为用户，您可以[创建，删除](https://modelers.cn/docs/zh/best-practices/community_contribution/datasets_contribution.html)，[下载](https://modelers.cn/docs/zh/community/models/downloading_models.html)和[管理](https://modelers.cn/docs/zh/best-practices/community_contribution/datasets_contribution.html#%E6%95%B0%E6%8D%AE%E9%9B%86%E6%96%87%E4%BB%B6%E8%A7%84%E8%8C%83)数据集中的内容。
+快来[这里](https://modelers.cn/models)看看社区有哪些模型，并尝试[创建](https://modelers.cn/models/new)一个新的模型吧！
 
-### [体验空间模块](https://modelers.cn/docs/zh/community/spaces/overview.html)
-体验空间是在魔乐社区上演示应用程序的一站式平台。
-1. 作为用户，您可以[创建，删除](https://modelers.cn/docs/zh/community/spaces/creating_spaces.html)，[管理](https://modelers.cn/docs/zh/community/spaces/managing_spaces.html)体验空间中的内容。
-2. 作为开发者，您可以部署[Gradio](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_gradio_space.html)，[Static](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_static_space.html)，[Application](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_application_space.html)体验空间。
-3. 作为开发者，您可以[配置](https://modelers.cn/docs/zh/community/spaces/advanced_functions/dependencies_applicable_to_spaces.html)体验空间规格。
-4. 作为用户，可以通过在线和离线体验两种方式[使用](https://modelers.cn/docs/zh/community/spaces/using_spaces.html)体验空间。
+#### 🌟数据集版块
+数据集汇集了多领域的数据集，可用于翻译、语音识别和图像分类等任务，您可以在这里下载最新、最流行的数据集，也可以创建自己的数据集。
+- 数据集总览：支持通过任务、条目数、领域等标签快速筛选数据集。
+- 基础功能：支持添加介绍、文件、讨论区等，帮助您全方位展示您的数据集。
+- 数据集上传与下载：支持Git（含LFS）、Hub Client等场景方式上传、下载数据集。
 
-### [讨论区](https://modelers.cn/docs/zh/community/repositories/issue_management.html)
-讨论区模块鼓励社区成员就相关内容进行讨论，分享观点、提出问题和解决问题。
-1. 作为用户和开发者，您可以在某个模型/数据集/体验空间的讨论区中反馈问题，解答问题提和同步信息
+快来[这里](https://modelers.cn/datasets)看看社区有哪些数据集，并尝试[创建](https://modelers.cn/datasets/new)一个新的数据集吧！
 
-### [个人账号模块](https://modelers.cn/docs/zh/community/my_account.html)
-用户可以在个人账号模块完成对账号的管理。
-1. 用户可通过手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)进行注册。
-2. 用户可以基于手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)以及密码登录选项。
-3. 用户可在个人中心进行账号管理（如账号注销，上传自定义头像，更新签名，绑定邮箱）。
+#### 🌟体验空间板块
+体验空间板块是演示应用程序的一站式平台。
+- 体验空间总览：支持通过任务、算力资源、收藏量等标签快速筛选体验空间，支持展示精选空间。
+- 基础功能：支持添加介绍、文件、讨论区等，帮助您全方位展示您的体验空间。
+- 部署与配置：支持部署[Gradio](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_gradio_space.html)，[Static](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_static_space.html)，[Application](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_application_space.html)体验空间，支持[配置](https://modelers.cn/docs/zh/community/spaces/advanced_functions/dependencies_applicable_to_spaces.html)体验空间规格。
+- 使用：作支持通过在线和离线体验两种方式[使用](https://modelers.cn/docs/zh/community/spaces/using_spaces.html)体验空间。
 
-### [组织模块](https://modelers.cn/docs/zh/community/managing_organizations.html)
-魔乐社区提供“组织”功能，帮助用户根据实际需求对不同账号进行分组管理。
-1. 用户能够创建、加入或退出组织。
-2. 组织管理员可以集中管理数据集、模型库和体验空间。
-3. 组织管理员可灵活设置成员权限，确保资源安全。
-4. 组织可邀请用户加入。
-5. 组织管理员可以对组织进行认证。
+快来[这里](https://modelers.cn/spaces)看看社区有哪些体验空间，并尝试[创建](https://modelers.cn/spaces/new)一个新的体验空间吧！
+#### 🌟讨论区板块
+讨论区鼓励社区成员就相关内容进行讨论，分享观点、提出问题和解决问题。
+- 基础功能：支持在某个模型/数据集/体验空间的讨论区中反馈问题，解答问题提和同步信息
+
+快去你感兴趣的模型、数据集、体验空间下分享你的观点吧！
+
+#### 🌟组织板块
+组织板块帮助用户根据实际需求对不同账号进行分组管理。
+- 组织总览：支持通过企业、学校、机构等标签快速筛选组织。
+- 基础功能：支持创建、加入或退出组织，通过介绍、体验空间、模型、数据集来全方位展示您的组织。
+- 组织管理：组织管理员可以集中管理数据集、模型库和体验空间，组织管理员可灵活设置成员权限，确保资源安全，组织管理员可邀请用户加入。
+- 组织认证：组织管理员可以对组织进行认证。
+
+快来[这里](https://modelers.cn/organizations)看看社区有哪些组织，并尝试[创建](https://modelers.cn/organizations/new)一个组织吧！
+
+#### 🌟个人账号板块
+个人账户板块提供用户账户注册、登录、管理的相关功能。
+- 账号注册：用户可通过手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)进行注册。
+- 账号登录：用户可以基于手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)以及密码登录选项。
+- 个人中心：用户可在个人中心进行账号管理（如账号注销，上传自定义头像，更新签名，绑定邮箱），动态查看等。
+
