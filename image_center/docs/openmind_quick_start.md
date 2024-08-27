@@ -4,8 +4,7 @@
 docker run --name torch -it --rm registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.6 bash
 ```
 
-openmind:latest是openmind0.6和pytorch2.1.0版本的npu镜像，运行前需要安装好固件与驱动，在[固件与驱动页面](https://www.hiascend.com/hardware/firmware-drivers/community?product=4&model=32&cann=8.0.RC1.beta1&driver=1.0.RC1.alpha)选择CANN版本8.0.RC1.beta1，选择Atlas 800I A2 推理服务器或Atlas 800T A2 训练服务器，下载并安装，成功后运行下面的命令。
-
+对于昇腾NPU镜像，需要先安装昇腾NPU驱动，然后运行：
 ```bash
 docker run \
     --name openmind \
@@ -18,5 +17,7 @@ docker run \
     -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \
     -v /etc/ascend_install.info:/etc/ascend_install.info \
     -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \
-    -ti registry.modelers.cn/base_image/openmind bash
+    -ti registry.modelers.cn/base_image/openmind:latest bash
 ```
+
+本命令的`openmind:latest`镜像包含的是`openmind0.6`和`pytorch 2.1.0`版本。
