@@ -47,7 +47,7 @@
 
 #### 🌟个人账号板块
 个人账户板块提供用户账户注册、登录、管理的相关功能。
-- 账号注册：用户可通过手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)进行注册。
-- 账号登录：用户可以基于手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)以及密码登录选项。
-- 个人中心：用户可在个人中心进行账号管理（如账号注销，上传自定义头像，更新签名，绑定邮箱），动态查看等。
+- 账号注册：支持通过手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)进行注册。
+- 账号登录：支持基于手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)以及密码登录选项。
+- 个人中心：支持在个人中心进行账号管理（如上传自定义头像、更新签名、绑定邮箱、账号注销），动态查看等。
 
