@@ -1,7 +1,7 @@
 对于cpu镜像，可以直接运行
 
 ```bash
-docker run --name torch -it --rm registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.6 bash
+docker run --name openmind -it --rm registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.6 bash
 ```
 
 对于昇腾NPU镜像，需要先安装昇腾NPU驱动，然后运行：
