@@ -17,8 +17,8 @@
 体验空间是在魔乐社区上演示应用程序的一站式平台。
 1. 作为用户，您可以[创建，删除](https://modelers.cn/docs/zh/community/spaces/creating_spaces.html)，[管理](https://modelers.cn/docs/zh/community/spaces/managing_spaces.html)体验空间中的内容。
 2. 作为开发者，您可以部署[Gradio](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_gradio_space.html)，[Static](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_static_space.html)，[Application](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_application_space.html)体验空间。
-4. 作为开发者，您可以[配置](https://modelers.cn/docs/zh/community/spaces/advanced_functions/dependencies_applicable_to_spaces.html)体验空间规格。
-3. 作为用户，可以通过在线和离线体验两种方式[使用](https://modelers.cn/docs/zh/community/spaces/using_spaces.html)体验空间。
+3. 作为开发者，您可以[配置](https://modelers.cn/docs/zh/community/spaces/advanced_functions/dependencies_applicable_to_spaces.html)体验空间规格。
+4. 作为用户，可以通过在线和离线体验两种方式[使用](https://modelers.cn/docs/zh/community/spaces/using_spaces.html)体验空间。
 
 ### [讨论区](https://modelers.cn/docs/zh/community/repositories/issue_management.html)
 讨论区模块鼓励社区成员就相关内容进行讨论，分享观点、提出问题和解决问题。
