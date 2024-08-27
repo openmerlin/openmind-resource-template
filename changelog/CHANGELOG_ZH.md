@@ -1,43 +1,39 @@
-### 新特性介绍
+# Changelog
+该项目所有显著的变化都将记录在此文件中，并会通过链接引导至体验地图。
 
-#### [个人账户](https://modelers.cn/docs/zh/community/my_account.html)
-- **个人账户管理**：新增账户登录、注册、注销功能。
-- **多平台注册**：支持通过手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)进行注册。
-- **多样化登录方式**：提供手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)以及密码登录选项。
-- **个性化设置**：用户可上传自定义头像。
+## [1.0.0] - 2024-08-28
+## 新特性介绍
 
-#### [组织模块](https://modelers.cn/docs/zh/community/managing_organizations.html)
-- **组织管理**：用户能够创建、加入或退出组织。
-- **资源集中管理**：组织拥有者可以集中管理数据集、模型库和体验空间。
-- **权限设置**：组织管理员可灵活设置成员权限，确保资源安全。
-- **组织退出与邀请**：管理员可退出组织，组织可邀请用户加入。
-- **企业认证**：支持组织进行企业认证。
-- **特权组织**：包括算力组织和下架组织，享有特定权益。
+### [模型库模块](https://modelers.cn/docs/zh/community/models/overview.html)
+魔乐社区提供了大量用于各种机器学习任务的模型库。
+1. 作为用户，您可以[创建，删除](https://modelers.cn/docs/zh/best-practices/community_contribution/model_contribution.html)，[管理](https://modelers.cn/docs/zh/community/repositories/repository_settings.html)，[下载](https://modelers.cn/docs/zh/community/models/downloading_models.html)模型库中的内容。
+2. 作为模型开发者，您可以通过[模型可用性测试](https://modelers.cn/docs/zh/community/models/verifying_models.html)验证模型在昇腾算力上的运行情况
 
-#### [体验空间模块](https://modelers.cn/docs/zh/community/spaces/overview.html)
-- **空间管理**：支持创建、更新、删除体验空间，并自定义封面。
-- **大型文件上传**：通过Git命令行支持大型文件上传。
-- **环境配置**：可设置环境变量和机密变量。
-- **操作控制**：提供暂停、重启、重建体验空间的功能。
-- **讨论区**：新增讨论区功能，促进社区交流。
-- **离线体验**：用户可享受离线体验功能。
+### [数据集模块](https://modelers.cn/docs/zh/community/datasets/overview.html)
+魔乐社区提供了多领域的数据集，可用于翻译、语音识别和图像分类等任务。
+1. 作为用户，您可以[创建，删除](https://modelers.cn/docs/zh/best-practices/community_contribution/datasets_contribution.html)，[下载](https://modelers.cn/docs/zh/community/models/downloading_models.html)和[管理](https://modelers.cn/docs/zh/best-practices/community_contribution/datasets_contribution.html#%E6%95%B0%E6%8D%AE%E9%9B%86%E6%96%87%E4%BB%B6%E8%A7%84%E8%8C%83)数据集中的内容。
 
-#### [模型库模块](https://modelers.cn/docs/zh/community/models/overview.html)
-- **模型库操作**：支持创建、更新、删除模型库。
-- **文件上传**：支持通过Git命令行和SDK上传文件。
-- **文件下载**：提供模型库及单个文件下载选项。
-- **排序功能**：新增按下载量、收藏量、更新时间的综合排序功能。
+### [体验空间模块](https://modelers.cn/docs/zh/community/spaces/overview.html)
+体验空间是在魔乐社区上演示应用程序的一站式平台。
+1. 作为用户，您可以[创建，删除](https://modelers.cn/docs/zh/community/spaces/creating_spaces.html)，[管理](https://modelers.cn/docs/zh/community/spaces/managing_spaces.html)体验空间中的内容。
+2. 作为开发者，您可以部署[Gradio](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_gradio_space.html)，[Static](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_static_space.html)，[Application](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_application_space.html)体验空间。
+4. 作为开发者，您可以[配置](https://modelers.cn/docs/zh/community/spaces/advanced_functions/dependencies_applicable_to_spaces.html)体验空间规格。
+3. 作为用户，可以通过在线和离线体验两种方式[使用](https://modelers.cn/docs/zh/community/spaces/using_spaces.html)体验空间。
 
-#### [数据集模块](https://modelers.cn/docs/zh/community/datasets/overview.html)
-- **数据集管理**：支持创建、更新、删除数据集。
-- **大型文件上传**：通过Git命令行支持大型文件上传。
-- **文件上传与下载**：支持通过SDK上传文件，提供数据集及单个文件下载。
-- **排序功能**：提供按下载量、收藏量、更新时间的综合排序功能。
+### [讨论区](https://modelers.cn/docs/zh/community/repositories/issue_management.html)
+讨论区模块鼓励社区成员就相关内容进行讨论，分享观点、提出问题和解决问题。
+1. 作为用户和开发者，您可以在某个模型/数据集/体验空间的讨论区中反馈问题，解答问题提和同步信息
 
-#### 专区模块
-- **滚动展示**：在模型库页面滚动展示专区。
-- **机构介绍**：展示机构或组织介绍及相关模型、体验空间集合。
+### [个人账号模块](https://modelers.cn/docs/zh/community/my_account.html)
+用户可以在个人账号模块完成对账号的管理。
+1. 用户可通过手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)进行注册。
+2. 用户可以基于手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)以及密码登录选项。
+3. 用户可在个人中心进行账号管理（如账号注销，上传自定义头像，更新签名，绑定邮箱）。
 
-#### [文档模块](https://modelers.cn/docs/)
-- **社区介绍**：提供社区整体介绍。
-- **模块指南**：为社区中每个模块提供详细介绍和使用教程。
+### [组织模块](https://modelers.cn/docs/zh/community/managing_organizations.html)
+魔乐社区提供“组织”功能，帮助用户根据实际需求对不同账号进行分组管理。
+1. 用户能够创建、加入或退出组织。
+2. 组织管理员可以集中管理数据集、模型库和体验空间。
+3. 组织管理员可灵活设置成员权限，确保资源安全。
+4. 组织可邀请用户加入。
+5. 组织管理员可以对组织进行认证。
