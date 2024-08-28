@@ -23,7 +23,7 @@
 快来[这里](https://modelers.cn/datasets)看看社区有哪些数据集，并尝试[创建](https://modelers.cn/datasets/new)一个新的数据集吧！
 
 #### 🌟体验空间板块
-体验空间板块是演示应用程序的一站式平台。
+体验空间板块是演示应用程序的一站式平台，汇集了多种类型的AI应用，您可以自行构建体验空间，展示研究成果，也可以使用其他用户贡献的应用程序，和更多用户一起体验、探索、学习和互动。
 - 体验空间总览：支持通过任务、算力资源、收藏量等标签快速筛选体验空间，支持展示精选空间。
 - 基础功能：支持添加介绍、文件、讨论区等，帮助您全方位展示您的体验空间。
 - 部署与配置：支持部署[Gradio](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_gradio_space.html)，[Static](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_static_space.html)，[Application](https://modelers.cn/docs/zh/community/spaces/deploying_spaces/deploying_a_application_space.html)体验空间，支持[配置](https://modelers.cn/docs/zh/community/spaces/advanced_functions/dependencies_applicable_to_spaces.html)体验空间规格。
@@ -48,6 +48,7 @@
 #### 🌟个人账号板块
 个人账户板块提供用户账户注册、登录、管理的相关功能。
 - 账号注册：支持通过手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)进行注册。
-- 账号登录：支持基于手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)以及密码登录选项。
+- 账号登录：支持通过手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)以及密码进行登录。
 - 个人中心：支持在个人中心进行账号管理（如上传自定义头像、更新签名、绑定邮箱、账号注销），动态查看等。
 
+快去你的个人中心更新一次个性签名吧！
