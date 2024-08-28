@@ -45,6 +45,14 @@
 
 快来[这里](https://modelers.cn/organizations)看看社区有哪些组织，并尝试[创建](https://modelers.cn/organizations/new)一个组织吧！
 
+
+#### 🌟 镜像中心板块
+
+镜像中心开放了可用于CPU、NPU算力资源的CANN、Pytorch、MindSpore、openMind的基础镜像。
+- 基础功能：提供各领域对应的基础镜像和详细介绍，支持通过docker pull方式拉取镜像。
+
+快来[这里](https://modelers.cn/images)查看你感兴趣的镜像吧！
+
 #### 🌟 个人账号板块
 个人账号板块提供用户账号注册、登录、管理的相关功能。
 - 账号注册：支持通过手机号、[GitHub](https://github.com/)、[Gitee](https://gitee.com/)进行注册。
