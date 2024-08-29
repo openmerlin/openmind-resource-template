@@ -6,7 +6,7 @@
 
 ## changelog版本更新消息通知
 
-同样在上述定时任务中，执行完文件内容同步后，检查CHANGELOG_ZH.md的最新commit message，匹配正则表达式^release_update_(v\d+(.\d+)+)$，且该commit于24小时内提交（对应定时脚本执行频率，避免重复发送）。
+同样在上述定时任务中，执行完文件内容同步后，检查CHANGELOG_ZH.md的最新commit message，匹配正则表达式release_update_(v\d+(.\d+)+)，且该commit于24小时内提交（对应定时脚本执行频率，避免重复发送）。
 
 之后会用匹配到的版本vx.x.x号向全部用户发送版本更新消息通知。
 
