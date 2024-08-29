@@ -1,7 +1,7 @@
 对于cpu镜像，可以直接运行：
 
 ```bash
-docker run --name torch -it --rm registry.modelers.cn/base_image/mindspore:openeuler-python3.8-mindspore2.3.0rc1 bash
+docker run --name mindspore -it --rm registry.modelers.cn/base_image/mindspore:openeuler-python3.8-mindspore2.3.0rc1 bash
 ```
 
 对于昇腾NPU镜像，需要先安装昇腾NPU驱动，然后运行：

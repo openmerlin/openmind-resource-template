@@ -45,8 +45,8 @@
             ]
         },
         {
-            "name": "Pytorch",
-            "label": ["Pytorch"],
+            "name": "PyTorch",
+            "label": ["PyTorch"],
             "description": "PyTorch是一个开源的Python机器学习库，基于Torch库，底层由C++实现，应用于人工智能领域，如计算机视觉和自然语言处理。它最初由Meta Platforms的人工智能研究团队开发，现在属于Linux基金会的一部分。它是在修改后的BSD许可证下发布的自由及开放源代码软件。",
             "update_time": "2024/08/22",
             "base_info": {
@@ -181,7 +181,7 @@
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind",
                     "manifest": [
                         {
-                            "hash": "sha256:d99677ff0d314c0a1af71ddfd32bb42c57851f14d820aee26505b498bfa0c31d",
+                            "hash": "sha256:b9d8e936b9e20c01734e7612c284a997bbf08c7eb0419dd62dea2f70ff3f1d1f",
                             "os_arch": "openEuler/aarch64",
                             "size": "3.6 GB",
                             "update_time": "2024/08/22"
@@ -209,7 +209,7 @@
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-pytorch2.1.0-openmind0.6",
                     "manifest": [
                         {
-                            "hash": "sha256:d99677ff0d314c0a1af71ddfd32bb42c57851f14d820aee26505b498bfa0c31d",
+                            "hash": "sha256:b9d8e936b9e20c01734e7612c284a997bbf08c7eb0419dd62dea2f70ff3f1d1f",
                             "os_arch": "openEuler/aarch64",
                             "size": "3.6 GB",
                             "update_time": "2024/08/22"
@@ -237,7 +237,7 @@
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-mindspore2.3.0rc1-openmind0.6",
                     "manifest": [
                         {
-                            "hash": "sha256:7840160c4d18d05dd96621948b3dfbeef0f91dd09d0ebe718552816b907271f2",
+                            "hash": "sha256:ca62e1e9d99eed2b9c61a50ed19f10b32f095b2727c1d552b2cc1702967a390c",
                             "os_arch": "openEuler/aarch64",
                             "size": "3.7 GB",
                             "update_time": "2024/08/22"
@@ -251,7 +251,7 @@
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-mindspore2.3.0rc1-openmind0.7",
                     "manifest": [
                         {
-                            "hash": "sha256:e2cd365220a054523e90417e7186bbc12a2710b6fd89443af1f6a21bad0d7361",
+                            "hash": "sha256:f860fc05feaea2eec1ddd64b9101a057be3ea12bfd80f98951cf8ae64d30567c",
                             "os_arch": "openEuler/aarch64",
                             "size": "3.7 GB",
                             "update_time": "2024/08/22"
@@ -265,7 +265,7 @@
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-mindspore2.3.0rc1-openmind0.7",
                     "manifest": [
                         {
-                            "hash": "sha256:bfd9cef995c838406b8bf250ddc24a83debeec71613abad6e46708ac2a379ae0",
+                            "hash": "sha256:e2cd365220a054523e90417e7186bbc12a2710b6fd89443af1f6a21bad0d7361",
                             "os_arch": "openEuler/amd64",
                             "size": "3.7 GB",
                             "update_time": "2024/08/22"
@@ -275,13 +275,13 @@
                 {
                     "version": "openeuler-python3.8-cann8.0-pytorch2.1.0-openmind0.7",
                     "update_time": "2024/08/22",
-                    "size": "3.6 GB",
+                    "size": "3.8 GB",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-pytorch2.1.0-openmind0.7",
                     "manifest": [
                         {
-                            "hash": "sha256:d6d85981173176bac503e59ce52c22534f7469c0664203a4dec170b822709032",
+                            "hash": "sha256:874dbc100c7f4f8ac6181ebd84dd7c3ccab63d0819869f88e236c844458addbd",
                             "os_arch": "openEuler/aarch64",
-                            "size": "3.7 GB",
+                            "size": "3.8 GB",
                             "update_time": "2024/08/22"
                         }
                     ]
