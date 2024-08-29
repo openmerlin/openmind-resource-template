@@ -7,7 +7,7 @@ docker run --name pytorch -it --rm registry.modelers.cn/base_image/pytorch:opene
 对于昇腾NPU镜像，需要先安装昇腾NPU驱动，然后运行：
 ```bash
 docker run \
-    --name torch \
+    --name pytorch \
     --device /dev/davinci0 \
     --device /dev/davinci_manager \
     --device /dev/devmm_svm \
