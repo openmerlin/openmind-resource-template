@@ -1,0 +1,25 @@
+id: opendatalab
+type: organization
+logo: imgs/logo.png
+cover: imgs/cover.png
+banner: imgs/banner.jpg
+color: #007AF0
+name_zh: 浦数专区
+name_en: OpenDataLab
+desc_zh: >-
+  欢迎来到OpenDataLab专区！这里汇聚了各类人工智能数据集。OpenDataLab作为人工智能数据领域的探路者和开源数据社区的倡导者，围绕大模型数据开展多项前沿技术探索，构建面向大模型研发全流程的数据平台及大模型时代数据管理体系。
+desc_en: >-
+  Welcome to the OpenDataLab Hub! Here, you'll find a diverse array of AI datasets. 
+detail:
+  logo: imgs/logo-detail.png
+  name_zh: 浦数
+  name_en: OpenDataLab
+  href: https://opendatalab.com/
+  desc_zh: >-
+    OpenDataLab作为人工智能数据领域的探路者和开源数据社区的倡导者，围绕大模型数据开展多项前沿技术探索，构建面向大模型研发全流程的数据平台及大模型时代数据管理体系。
+  desc_en: >-
+    As a pioneer in the field of artificial intelligence data and a champion of open-source data communities, OpenDataLab is at the forefront of cutting-edge explorations around large-scale model data. We are building a comprehensive data platform that supports the entire lifecycle of large model development and establishing a data management system tailored for the era of large models.
+  assets_origins:
+    - OpenDataLab-dataset
+  contributors_origins:
+    - OpenDataLab-dataset
