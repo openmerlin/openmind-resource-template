@@ -1,0 +1,25 @@
+id: Infinigence-AI
+type: organization
+logo: imgs/logo.png
+cover: imgs/cover.jpg
+banner: imgs/banner.jpg
+color: #7952EA
+name_zh: 无问芯穹
+name_en: Infinigence AI
+desc_zh: >-
+  欢迎来到无问芯穹专区，致力于成为大模型时代首选的算力运营商。依托“多元异构、软硬协同”的核心技术优势，打造了连接“M种模型”和“N种芯片”的“MxN”AI基础设施新范式，实现多种大模型算法在多元芯片上的高效协同部署。无问芯穹Infini-AI异构云平台基于多元芯片算力底座，向大模型开发者提供极致性价比的高性能算力和原生工具链，为大模型从开发到部署的全生命流程降本增效。无问芯穹以“释放无穹算力，让AGI触手可及”为使命，通过不断的技术创新实现普惠AI，让算力成本实现万倍下降，如同水电煤一般为千行百业注入新质生产力。
+desc_en: >-
+  Welcome to INFINIGENCE AI special area, as a newly established startup company in May 2023, is committed to optimizing the economic efficiency of Large Language Model (LLM) applications. Founded by top talents from Tsinghua University and Internet giants, the team boasts extensive academic and industry experience.​ INFINIGENCE is actively improving inference speeds and facilitating LLM adaptation to diverse hardware. The recent introduction of FlashDecoding++, a rapid LLM inference engine, accelerates GPU inference by 2-4 times and simultaneously supports both NVIDIA and AMD GPUs.
+detail:
+  logo: imgs/logo-detail.png
+  name_zh: 无问芯穹科技智能科技有限公司
+  name_en: Infinigence AI Technology and Intelligent Technology Co., Ltd.
+  href: https://cloud.infini-ai.com
+  desc_zh: >-
+    欢迎来到无问芯穹专区，致力于成为大模型时代首选的算力运营商。依托“多元异构、软硬协同”的核心技术优势，打造了连接“M种模型”和“N种芯片”的“MxN”AI基础设施新范式，实现多种大模型算法在多元芯片上的高效协同部署。无问芯穹Infini-AI异构云平台基于多元芯片算力底座，向大模型开发者提供极致性价比的高性能算力和原生工具链，为大模型从开发到部署的全生命流程降本增效。无问芯穹以“释放无穹算力，让AGI触手可及”为使命，通过不断的技术创新实现普惠AI，让算力成本实现万倍下降，如同水电煤一般为千行百业注入新质生产力。
+  desc_en: >-
+    Welcome to INFINIGENCE AI special area, as a newly established startup company in May 2023, is committed to optimizing the economic efficiency of Large Language Model (LLM) applications. Founded by top talents from Tsinghua University and Internet giants, the team boasts extensive academic and industry experience.​ INFINIGENCE is actively improving inference speeds and facilitating LLM adaptation to diverse hardware. The recent introduction of FlashDecoding++, a rapid LLM inference engine, accelerates GPU inference by 2-4 times and simultaneously supports both NVIDIA and AMD GPUs.
+  assets_origins:
+    - INFINIGENCE-AI
+  contributors_origins:
+    - INFINIGENCE-AI
