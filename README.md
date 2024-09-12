@@ -9,3 +9,4 @@ openmind-resource-template主要负责openmind使用的模型 数据集 体验�
 | model | 模型下载、使用说明 |
 | space | 体验空间 |
 | topics | 专区 |
+| model_ci| 模型CI |
