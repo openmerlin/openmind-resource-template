@@ -1,0 +1,24 @@
+id: SupieAI
+type: organization
+logo: imgs/logo.png
+cover: imgs/cover.png
+banner: imgs/banner.jpg
+color: #246FDD
+name_zh: 数派专区
+name_en: SupieDT Large Language Models
+desc_zh: >-
+  欢迎来到数派大模型平台，功能全面、生态丰富，集成主流开源大模型，涵盖从数据集管理、数据标注、模型评估、模型训练、模型部署等全栈能力，为开发者打造了一套夯实的工具和资源基础，让开发者能够便捷地运用大模型技术。基于昇腾架构覆盖大模型全生命周期，无差别体验国产AI算力，零基础构建AI原生应用。
+desc_en: >-
+  Welcome to the supie Big Model Platform, which has comprehensive functions and rich ecology. It integrates mainstream open source big models, covering full stack capabilities such as dataset management, data annotation, model evaluation, model training, and model deployment. It has created a solid tool and resource foundation for developers, allowing them to easily apply big model technology.Based on the Ascend architecture, covering the entire lifecycle of large models, providing a seamless experience of domestic AI computing power, and building AI native applications with zero foundation.
+detail:
+  logo: imgs/logo.png
+  name_zh: 云南数派数据科技有限公司
+  name_en: SupieDT Corporation Limited
+  desc_zh: >-
+    云南数派数据科技有限公司，定位于领先的人工智能大模型产品、技术与服务提供商，为客户提供创新、可靠的系统软件管理平台及相应技术服务，业务覆盖软件开发、数据采集、存储、可视、AI算法应用、人工智能等，致力于帮助客户搭建无绑定、高兼容、自主可控的大模型开发平台。
+  desc_en: >-
+    Yunnan supie Data Technology Co., Ltd. is positioned as a leading provider of artificial intelligence big model products, technologies, and services, providing customers with innovative and reliable system software management platforms and corresponding technical services. Its business covers software development, data collection, storage, visualization, AI algorithm applications, artificial intelligence, etc. It is committed to helping customers build unbound, highly compatible, and independently controllable big model development platforms.
+  assets_origins:
+    - SupieDT
+  contributors_origins:
+    - SupieDT
