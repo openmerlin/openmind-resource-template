@@ -26,7 +26,9 @@
                             "size": "3.2 GB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/cann",
+                    "hardware" : "NPU"
                 },
                 {
                     "version": "openeuler-python3.8-cann8.0",
@@ -40,13 +42,15 @@
                             "size": "3.2GB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/cann:openeuler-python3.8-cann8.0",
+                    "hardware" : "NPU"
                 }
             ]
         },
         {
             "name": "PyTorch",
-            "label": ["Pytorch"],
+            "label": ["PyTorch"],
             "description": "PyTorch是一个开源的Python机器学习库，基于Torch库，底层由C++实现，应用于人工智能领域，如计算机视觉和自然语言处理。它最初由Meta Platforms的人工智能研究团队开发，现在属于Linux基金会的一部分。它是在修改后的BSD许可证下发布的自由及开放源代码软件。",
             "update_time": "2024/08/22",
             "base_info": {
@@ -70,7 +74,9 @@
                             "size": "3.3 GB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/pytorch",
+                    "hardware" : "NPU"
                 },
                 {
                     "version": "openeuler-python3.8-cann8.0-pytorch2.1.0",
@@ -84,7 +90,9 @@
                             "size": "3.3GB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/pytorch:openeuler-python3.8-cann8.0-pytorch2.1.0",
+                    "hardware" : "NPU"
                 },
                 {
                     "version": "openeuler-python3.8-pytorch2.1.0",
@@ -98,7 +106,9 @@
                             "size": "396.4MB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/pytorch:openeuler-python3.8-pytorch2.1.0",
+                    "hardware" : "CPU"
                 }
             ]
         },
@@ -128,7 +138,9 @@
                             "size": "3.4GB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/mindspore",
+                    "hardware" : "NPU"
                 },
                 {
                     "version": "openeuler-python3.8-cann8.0-mindspore2.3.0rc1",
@@ -142,7 +154,9 @@
                             "size": "3.4GB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/mindspore:openeuler-python3.8-cann8.0-mindspore2.3.0rc1",
+                    "hardware" : "NPU"
                 },
                 {
                     "version": "openeuler-python3.8-mindspore2.3.0rc1",
@@ -156,13 +170,15 @@
                             "size": "982.7MB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/mindspore:openeuler-python3.8-mindspore2.3.0rc1",
+                    "hardware" : "CPU"
                 }
             ]
         },
         {
             "name": "openMind",
-            "label": ["Pytorch", "MindSpore"],
+            "label": ["PyTorch", "MindSpore"],
             "description": "openMind Library是一个开源的深度学习开发套件，支持从模型训练到部署的全流程，原生兼容PyTorch和MindSpore等主流框架",
             "update_time": "2024/08/22",
             "base_info": {
@@ -186,7 +202,9 @@
                             "size": "3.6 GB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind",
+                    "hardware" : "NPU"
                 },
                 {
                     "version": "openeuler-python3.8-pytorch2.1.0-openmind0.6",
@@ -200,7 +218,9 @@
                             "size": "592.3 MB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.6",
+                    "hardware" : "CPU"
                 },
                 {
                     "version": "openeuler-python3.8-cann8.0-pytorch2.1.0-openmind0.6",
@@ -214,7 +234,9 @@
                             "size": "3.6 GB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-pytorch2.1.0-openmind0.6",
+                    "hardware" : "NPU"
                 },
                 {
                     "version": "openeuler-python3.8-mindspore2.3.0rc1-openmind0.6",
@@ -228,7 +250,9 @@
                             "size": "1.2 GB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-mindspore2.3.0rc1-openmind0.6",
+                    "hardware" : "CPU"
                 },
                 {
                     "version": "openeuler-python3.8-cann8.0-mindspore2.3.0rc1-openmind0.6",
@@ -242,7 +266,9 @@
                             "size": "3.7 GB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-mindspore2.3.0rc1-openmind0.6",
+                    "hardware" : "NPU"
                 },
                 {
                     "version": "openeuler-python3.8-cann8.0-mindspore2.3.0rc1-openmind0.7",
@@ -256,7 +282,9 @@
                             "size": "3.7 GB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-mindspore2.3.0rc1-openmind0.7",
+                    "hardware" : "NPU"
                 },
                 {
                     "version": "openeuler-python3.8-mindspore2.3.0rc1-openmind0.7",
@@ -270,7 +298,9 @@
                             "size": "3.7 GB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-mindspore2.3.0rc1-openmind0.7",
+                    "hardware" : "CPU"
                 },
                 {
                     "version": "openeuler-python3.8-cann8.0-pytorch2.1.0-openmind0.7",
@@ -284,7 +314,9 @@
                             "size": "3.8 GB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-pytorch2.1.0-openmind0.7",
+                    "hardware" : "NPU"
                 },
                 {
                     "version": "openeuler-python3.8-pytorch2.1.0-openmind0.7",
@@ -298,7 +330,9 @@
                             "size": "3.7 GB",
                             "update_time": "2024/08/22"
                         }
-                    ]
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.7",
+                    "hardware" : "CPU"
                 }
             ]
         }
