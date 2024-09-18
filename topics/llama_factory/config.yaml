@@ -1,0 +1,25 @@
+id: llamafactory
+type: organization
+logo: imgs/logo.png
+cover: imgs/cover.png
+banner: imgs/banner.jpg
+color: #448ACA
+name_zh: LLaMA-Factory
+name_en: LLaMA-Factory
+desc_zh: >-
+  LLaMA-Factory是一个支持百余种大模型高效微调的低代码大模型训练框架，提供可视化WebUI，内置全量微调、LoRA微调等多种训练方式，支持增量预训练、SFT、RLHF、DPO和KTO等训练算法，集成Adam-mini、Badam、LoRA+等先进调优器，允许用户在本地数据集上快速完成模型训练、评估和测试。LLaMA-Factory支持昇腾生态，提供NPU原生镜像环境，用户可以使用国产算力轻松完成大模型微调。
+desc_en: >-
+  LLaMA-Factory is a low-code LLM fine-tuning framework that supports the efficient fine-tuning of over 100+ large models. It provides a Web UI and includes various training methods such as full fine-tuning and LoRA fine-tuning. It supports continuous pre-training, SFT, RLHF, DPO, and KTO training algorithms. It integrates advanced optimizers like Adam-mini, Badam, and LoRA+, allowing users to quickly complete model training, evaluation, and testing on private datasets. LLaMA-Factory is compatible with the Ascend ecosystem, offering an NPU docker image, enabling users to easily fine-tune large models using Ascend computing platform.
+detail:
+  logo: imgs/logo.png
+  name_zh: LLaMA-Factory
+  name_en: LLaMA-Factory
+  href: https://modelers.cn/LlamaFactory
+  desc_zh: >-
+    LLaMA-Factory是一个支持百余种大模型高效微调的低代码大模型训练框架，提供可视化WebUI，内置全量微调、LoRA微调等多种训练方式，支持增量预训练、SFT、RLHF、DPO和KTO等训练算法，集成Adam-mini、Badam、LoRA+等先进调优器，允许用户在本地数据集上快速完成模型训练、评估和测试。LLaMA-Factory支持昇腾生态，提供NPU原生镜像环境，用户可以使用国产算力轻松完成大模型微调。
+  desc_en: >-
+    LLaMA-Factory is a low-code LLM fine-tuning framework that supports the efficient fine-tuning of over 100+ large models. It provides a Web UI and includes various training methods such as full fine-tuning and LoRA fine-tuning. It supports continuous pre-training, SFT, RLHF, DPO, and KTO training algorithms. It integrates advanced optimizers like Adam-mini, Badam, and LoRA+, allowing users to quickly complete model training, evaluation, and testing on private datasets. LLaMA-Factory is compatible with the Ascend ecosystem, offering an NPU docker image, enabling users to easily fine-tune large models using Ascend computing platform.
+  assets_origins:
+    - LlamaFactory
+  contributors_origins:
+    - LlamaFactory
