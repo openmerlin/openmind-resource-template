@@ -30,6 +30,8 @@ max_retries=3
 retry_delay=5
 retry_count=0
 
+pip install /home/openmind/openmind_hub-0.8.0-py3-none-any.whl
+
 while [ $retry_count -lt $max_retries ]; do
     wget $url -O obsutil_linux_arm64.tar.gz
     if [ $? -eq 0 ]; then
