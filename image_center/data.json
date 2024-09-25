@@ -192,19 +192,149 @@
             "tags": [
                 {
                     "version": "latest",
-                    "update_time": "2024/08/22",
+                    "update_time": "2024/09/25",
                     "size": "3.6 GB",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind",
                     "manifest": [
                         {
-                            "hash": "sha256:b9d8e936b9e20c01734e7612c284a997bbf08c7eb0419dd62dea2f70ff3f1d1f",
+                            "hash": "sha256:e3a1677044bb1397cd87be4f3fa73aeaef3909797e3572d3344dfff560da899e",
+                            "os_arch": "openEuler/aarch64",
+                            "size": "3.6 GB",
+                            "update_time": "2024/09/25"
+                        }
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind",
+                    "hardware" : "NPU"
+                },
+                {
+                    "version": "openeuler-python3.8-cann8.0.rc2-mindspore2.3.1-openmind0.8",
+                    "update_time": "2024/09/25",
+                    "size": "3.9 GB",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0.rc2-mindspore2.3.1-openmind0.8",
+                    "manifest": [
+                        {
+                            "hash": "sha256:fed72d1a41500feef5c38b09bafb2dfa83b45fdda03f800fe57ddeb35be6a846",
+                            "os_arch": "openEuler/aarch64",
+                            "size": "3.9 GB",
+                            "update_time": "2024/09/25"
+                        }
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0.rc2-mindspore2.3.1-openmind0.8",
+                    "hardware" : "NPU"
+                },
+                {
+                    "version": "openeuler-python3.8-mindspore2.3.1-openmind0.8",
+                    "update_time": "2024/09/25",
+                    "size": "1.4 GB",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-mindspore2.3.1-openmind0.8",
+                    "manifest": [
+                        {
+                            "hash": "sha256:829928e49091590ad090644822297ce11c4f8663130c4c24a0763a6ca59fc5d5",
+                            "os_arch": "openEuler/amd64",
+                            "size": "1.4 GB",
+                            "update_time": "2024/08/22"
+                        }
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-mindspore2.3.1-openmind0.8",
+                    "hardware" : "CPU"
+                },
+                {
+                    "version": "openeuler-python3.8-cann8.0.rc2-pytorch2.1.0-openmind0.8",
+                    "update_time": "2024/09/25",
+                    "size": "3.6 GB",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0.rc2-pytorch2.1.0-openmind0.8",
+                    "manifest": [
+                        {
+                            "hash": "sha256:e3a1677044bb1397cd87be4f3fa73aeaef3909797e3572d3344dfff560da899e",
                             "os_arch": "openEuler/aarch64",
                             "size": "3.6 GB",
                             "update_time": "2024/08/22"
                         }
                     ],
-                    "name" : "registry.modelers.cn/base_image/openmind",
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0.rc2-pytorch2.1.0-openmind0.8",
                     "hardware" : "NPU"
+                },
+                {
+                    "version": "openeuler-python3.8-pytorch2.1.0-openmind0.8",
+                    "update_time": "2024/09/25",
+                    "size": "732.0 MB",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.8",
+                    "manifest": [
+                        {
+                            "hash": "sha256:4b3c1cbedec9ccff10b5858a754ed1ebcf58eb646931573c3bdfa696519b222b",
+                            "os_arch": "openEuler/amd64",
+                            "size": "732.0 MB",
+                            "update_time": "2024/08/22"
+                        }
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.8",
+                    "hardware" : "CPU"
+                },
+
+
+                {
+                    "version": "openeuler-python3.8-cann8.0-mindspore2.3.0rc1-openmind0.7",
+                    "update_time": "2024/08/22",
+                    "size": "3.7 GB",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-mindspore2.3.0rc1-openmind0.7",
+                    "manifest": [
+                        {
+                            "hash": "sha256:f860fc05feaea2eec1ddd64b9101a057be3ea12bfd80f98951cf8ae64d30567c",
+                            "os_arch": "openEuler/aarch64",
+                            "size": "3.7 GB",
+                            "update_time": "2024/08/22"
+                        }
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-mindspore2.3.0rc1-openmind0.7",
+                    "hardware" : "NPU"
+                },
+                {
+                    "version": "openeuler-python3.8-mindspore2.3.0rc1-openmind0.7",
+                    "update_time": "2024/08/22",
+                    "size": "1.2 GB",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-mindspore2.3.0rc1-openmind0.7",
+                    "manifest": [
+                        {
+                            "hash": "sha256:e2cd365220a054523e90417e7186bbc12a2710b6fd89443af1f6a21bad0d7361",
+                            "os_arch": "openEuler/amd64",
+                            "size": "1.2 GB",
+                            "update_time": "2024/08/22"
+                        }
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-mindspore2.3.0rc1-openmind0.7",
+                    "hardware" : "CPU"
+                },
+                {
+                    "version": "openeuler-python3.8-cann8.0-pytorch2.1.0-openmind0.7",
+                    "update_time": "2024/08/22",
+                    "size": "3.8 GB",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-pytorch2.1.0-openmind0.7",
+                    "manifest": [
+                        {
+                            "hash": "sha256:874dbc100c7f4f8ac6181ebd84dd7c3ccab63d0819869f88e236c844458addbd",
+                            "os_arch": "openEuler/aarch64",
+                            "size": "3.8 GB",
+                            "update_time": "2024/08/22"
+                        }
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-pytorch2.1.0-openmind0.7",
+                    "hardware" : "NPU"
+                },
+                {
+                    "version": "openeuler-python3.8-pytorch2.1.0-openmind0.7",
+                    "update_time": "2024/08/22",
+                    "size": "810.3 MB",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.7",
+                    "manifest": [
+                        {
+                            "hash": "sha256:8ff008a5d43a16b89460dada5ea50a16ee864492260277b62c3c80623275769d",
+                            "os_arch": "openEuler/amd64",
+                            "size": "3.7 GB",
+                            "update_time": "2024/08/22"
+                        }
+                    ],
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.7",
+                    "hardware" : "CPU"
                 },
                 {
                     "version": "openeuler-python3.8-pytorch2.1.0-openmind0.6",
@@ -269,70 +399,6 @@
                     ],
                     "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-mindspore2.3.0rc1-openmind0.6",
                     "hardware" : "NPU"
-                },
-                {
-                    "version": "openeuler-python3.8-cann8.0-mindspore2.3.0rc1-openmind0.7",
-                    "update_time": "2024/08/22",
-                    "size": "3.7 GB",
-                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-mindspore2.3.0rc1-openmind0.7",
-                    "manifest": [
-                        {
-                            "hash": "sha256:f860fc05feaea2eec1ddd64b9101a057be3ea12bfd80f98951cf8ae64d30567c",
-                            "os_arch": "openEuler/aarch64",
-                            "size": "3.7 GB",
-                            "update_time": "2024/08/22"
-                        }
-                    ],
-                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-mindspore2.3.0rc1-openmind0.7",
-                    "hardware" : "NPU"
-                },
-                {
-                    "version": "openeuler-python3.8-mindspore2.3.0rc1-openmind0.7",
-                    "update_time": "2024/08/22",
-                    "size": "1.2 GB",
-                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-mindspore2.3.0rc1-openmind0.7",
-                    "manifest": [
-                        {
-                            "hash": "sha256:e2cd365220a054523e90417e7186bbc12a2710b6fd89443af1f6a21bad0d7361",
-                            "os_arch": "openEuler/amd64",
-                            "size": "3.7 GB",
-                            "update_time": "2024/08/22"
-                        }
-                    ],
-                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-mindspore2.3.0rc1-openmind0.7",
-                    "hardware" : "CPU"
-                },
-                {
-                    "version": "openeuler-python3.8-cann8.0-pytorch2.1.0-openmind0.7",
-                    "update_time": "2024/08/22",
-                    "size": "3.8 GB",
-                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-pytorch2.1.0-openmind0.7",
-                    "manifest": [
-                        {
-                            "hash": "sha256:874dbc100c7f4f8ac6181ebd84dd7c3ccab63d0819869f88e236c844458addbd",
-                            "os_arch": "openEuler/aarch64",
-                            "size": "3.8 GB",
-                            "update_time": "2024/08/22"
-                        }
-                    ],
-                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0-pytorch2.1.0-openmind0.7",
-                    "hardware" : "NPU"
-                },
-                {
-                    "version": "openeuler-python3.8-pytorch2.1.0-openmind0.7",
-                    "update_time": "2024/08/22",
-                    "size": "810.3 MB",
-                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.7",
-                    "manifest": [
-                        {
-                            "hash": "sha256:8ff008a5d43a16b89460dada5ea50a16ee864492260277b62c3c80623275769d",
-                            "os_arch": "openEuler/amd64",
-                            "size": "3.7 GB",
-                            "update_time": "2024/08/22"
-                        }
-                    ],
-                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.7",
-                    "hardware" : "CPU"
                 }
             ]
         }
