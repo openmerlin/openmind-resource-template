@@ -1,10 +1,4 @@
-对于cpu镜像，可以直接运行：
-
-```bash
-docker run --name mindspore -it --rm registry.modelers.cn/base_image/mindspore:openeuler-python3.8-mindspore2.3.0rc1 bash
-```
-
-对于昇腾NPU镜像，需要先安装昇腾NPU驱动，然后运行：
+如果有NPU设备，需要先安装昇腾NPU驱动，然后运行：
 ```bash
 docker run \
     --name mindspore \
@@ -17,7 +11,5 @@ docker run \
     -v /usr/local/Ascend/driver/lib64/:/usr/local/Ascend/driver/lib64/ \
     -v /etc/ascend_install.info:/etc/ascend_install.info \
     -v /usr/local/Ascend/driver/version.info:/usr/local/Ascend/driver/version.info \
-    -ti registry.modelers.cn/base_image/mindspore:latest bash
+    -ti registry.modelers.cn/base_image/mindspore:openeuler-python3.8-cann8.0.rc1.beta1-mindspore2.3.0rc1 bash
 ```
-
-本命令的`mindspore:latest`镜像包含的是`mindspore2.3.0rc1`版本。
