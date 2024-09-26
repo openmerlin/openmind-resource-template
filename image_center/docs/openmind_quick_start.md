@@ -1,10 +1,10 @@
-对于cpu镜像，可以直接运行
+如果只有CPU，可以直接运行
 
 ```bash
-docker run --name openmind -it --rm registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.6 bash
+docker run --name openmind -it registry.modelers.cn/base_image/openmind:openeuler-python3.9-pytorch2.1.0-openmind0.8.0 bash
 ```
 
-对于昇腾NPU镜像，需要先安装昇腾NPU驱动，然后运行：
+如果有NPU设备，需要先安装昇腾NPU驱动，然后运行：
 ```bash
 docker run \
     --name openmind \
@@ -20,4 +20,4 @@ docker run \
     -ti registry.modelers.cn/base_image/openmind:latest bash
 ```
 
-本命令的`openmind:latest`镜像包含的是`openmind0.6`和`pytorch 2.1.0`版本。
+`openmind:latest`镜像指向同时安装MindSpore和PyTorch的最新openMind的NPU镜像，对应软件版本为`openmind0.8.0`和`cann8.0.rc2.beta1`。
