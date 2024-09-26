@@ -15,4 +15,4 @@ docker run \
     -ti registry.modelers.cn/base_image/cann:latest bash
 ```
 
-本命令所使用的`cann:latest`镜像的CANN版本为`8.0.RC1.beta1`。
+本命令所使用的`cann:latest`镜像的CANN版本为`8.0.RC3.alpha002`。
