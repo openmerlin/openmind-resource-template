@@ -2,13 +2,14 @@ import mindspore
 from openmind import AutoModelForCausalLM, AutoTokenizer
 import gradio as gr
 
-mindspore.set_context(mode=0, device_id=0)
+
+ms.set_context(mode=ms.PYNATIVE_MODE, device_target='CPU')
 
 tokenizer = AutoTokenizer.from_pretrained(
-    "Baichuan/Baichuan2_7b_chat_ms", trust_remote_code=True
+    "MindSpore-Lab/glm2_6b", trust_remote_code=True
 )
 model = AutoModelForCausalLM.from_pretrained(
-    "Baichuan/Baichuan2_7b_chat_ms", trust_remote_code=True
+    "MindSpore-Lab/glm2_6b", trust_remote_code=True
 )
 
 
