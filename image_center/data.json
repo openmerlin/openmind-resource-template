@@ -178,7 +178,7 @@
                     "version": "openeuler-python3.9-cann8.0.rc2.beta1-pytorch2.1.0-mindspore2.3.1-openmind0.8.0",
                     "update_time": "2024/09/26",
                     "size": "4.0 GB",
-                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/openeuler-python3.9-cann8.0.rc2.beta1-pytorch2.1.0-mindspore2.3.1-openmind0.8.0",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.9-cann8.0.rc2.beta1-pytorch2.1.0-mindspore2.3.1-openmind0.8.0",
                     "manifest": [
                         {
                             "hash": "sha256:c3b51057d5c1962e1c3fc13a10d7c082b08102137e9d3f77f6621a1ad7c4ad20",
@@ -187,7 +187,7 @@
                             "update_time": "2024/09/26"
                         }
                     ],
-                    "name" : "registry.modelers.cn/base_image/openeuler-python3.9-cann8.0.rc2.beta1-pytorch2.1.0-mindspore2.3.1-openmind0.8.0",
+                    "name" : "registry.modelers.cn/base_image/openmind:openeuler-python3.9-cann8.0.rc2.beta1-pytorch2.1.0-mindspore2.3.1-openmind0.8.0",
                     "hardware" : "NPU"
                 },
                 {
