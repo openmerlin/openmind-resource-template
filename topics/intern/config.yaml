@@ -1,0 +1,25 @@
+id: Intern
+type: organization
+logo: imgs/logo.png
+cover: imgs/cover.png
+banner: imgs/banner.jpg
+color: #1B3882
+name_zh: 书生大模型专区
+name_en: Intern
+desc_zh: >-
+  欢迎来到书生专区！我们将会在这里提供我们所有的基座模型、聊天模型、多模态模型和奖励模型，覆盖 1.8B, 7B, 20B 等多个大小，让其能广泛的部署在数据中心，私人服务器或者移动端设备。我们最近的模型是 InternLM2.5 和 InternVL2.0。
+desc_en: >-
+  Welcome to the InternLM Zone! Here, we will provide all our foundational models, chat models, reward models, and multi-modal models covering sizes of 1.8B, 7B, and 20B, etc. enabling widespread deployment in data centers, private servers, or mobile devices. Our latest model, InternLM2.5 and InternVL2.0.
+detail:
+  logo: imgs/logo-detail.png
+  name_zh: 书生大模型开源组织
+  name_en: Intern
+  href: https://intern-ai.org.cn/
+  desc_zh: >-
+    书生是致力于大模型研究与开发工具链的开源组织。我们的使命是为所有 AI 开发者提供高效、易用的开源平台，让最前沿的大模型与算法技术触手可及。
+  desc_en: >-
+    Intern is an open-source organization dedicated to the research and development of large models and their toolchains. Our mission is to provide an efficient and user-friendly open-source platform for all AI developers, democratizing access of large models and algorithms.
+  assets_origins:
+    - Intern
+  contributors_origins:
+    - Intern
