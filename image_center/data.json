@@ -164,8 +164,8 @@
                     "name": "registry.modelers.cn/base_image/openmind:latest",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:latest",
                     "metadata": {
-                        "model_ci": "false",
-                        "space": "false"
+                        "model_ci": false,
+                        "space": false
                     },
                     "manifest": [
                         {
@@ -182,8 +182,8 @@
                     "name": "registry.modelers.cn/base_image/openmind:openeuler-python3.9-cann8.0.rc2.beta1-pytorch2.1.0-mindspore2.3.1-openmind0.8.0",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.9-cann8.0.rc2.beta1-pytorch2.1.0-mindspore2.3.1-openmind0.8.0",
                     "metadata": {
-                        "model_ci": "false",
-                        "space": "false",
+                        "model_ci": false,
+                        "space": false,
                         "python_version": "3.9",
                         "openmind_version": "0.8.0",
                         "hardware_version": "NPU",
@@ -204,8 +204,8 @@
                     "name": "registry.modelers.cn/base_image/openmind:openeuler-python3.9-cann8.0.rc2.beta1-pytorch2.1.0-openmind0.8.0",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.9-cann8.0.rc2.beta1-pytorch2.1.0-openmind0.8.0",
                     "metadata": {
-                        "model_ci": "true",
-                        "space": "true",
+                        "model_ci": true,
+                        "space": true,
                         "python_version": "3.9",
                         "openmind_version": "0.8.0",
                         "hardware_version": "NPU",
@@ -228,8 +228,8 @@
                     "name": "registry.modelers.cn/base_image/openmind:openeuler-python3.9-cann8.0.rc2.beta1-mindspore2.3.1-openmind0.8.0",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.9-cann8.0.rc2.beta1-mindspore2.3.1-openmind0.8.0",
                     "metadata": {
-                        "model_ci": "true",
-                        "space": "true",
+                        "model_ci": true,
+                        "space": true,
                         "python_version": "3.9",
                         "openmind_version": "0.8.0",
                         "hardware_version": "NPU",
@@ -252,8 +252,8 @@
                     "name": "registry.modelers.cn/base_image/openmind:openeuler-python3.9-mindspore2.3.1-openmind0.8.0",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.9-mindspore2.3.1-openmind0.8.0",
                     "metadata": {
-                        "model_ci": "false",
-                        "space": "true",
+                        "model_ci": false,
+                        "space": true,
                         "python_version": "3.9",
                         "openmind_version": "0.8.0",
                         "hardware_version": "CPU",
@@ -275,8 +275,8 @@
                     "name": "registry.modelers.cn/base_image/openmind:openeuler-python3.9-pytorch2.1.0-openmind0.8.0",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.9-pytorch2.1.0-openmind0.8.0",
                     "metadata": {
-                        "model_ci": "false",
-                        "space": "true",
+                        "model_ci": false,
+                        "space": true,
                         "python_version": "3.9",
                         "openmind_version": "0.8.0",
                         "hardware_version": "CPU",
@@ -298,8 +298,8 @@
                     "name": "registry.modelers.cn/base_image/openmind:openeuler-python3.8-mindspore2.3.1-openmind0.8.0",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-mindspore2.3.1-openmind0.8.0",
                     "metadata": {
-                        "model_ci": "false",
-                        "space": "true",
+                        "model_ci": false,
+                        "space": true,
                         "python_version": "3.8",
                         "openmind_version": "0.8.0",
                         "hardware_version": "CPU",
@@ -321,8 +321,8 @@
                     "name": "registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.8.0",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.8.0",
                     "metadata": {
-                        "model_ci": "false",
-                        "space": "true",
+                        "model_ci": false,
+                        "space": true,
                         "python_version": "3.8",
                         "openmind_version": "0.8.0",
                         "hardware_version": "CPU",
@@ -344,8 +344,8 @@
                     "name": "registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0.rc1.beta1-pytorch2.1.0-mindspore2.3.0rc1-openmind0.7.1",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0.rc1.beta1-pytorch2.1.0-mindspore2.3.0rc1-openmind0.7.1",
                     "metadata": {
-                        "model_ci": "false",
-                        "space": "false",
+                        "model_ci": false,
+                        "space": false,
                         "python_version": "3.8",
                         "openmind_version": "0.7.1",
                         "hardware_version": "NPU",
@@ -366,8 +366,8 @@
                     "name": "registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0.rc1.beta1-pytorch2.1.0-openmind0.7.1",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0.rc1.beta1-pytorch2.1.0-openmind0.7.1",
                     "metadata": {
-                        "model_ci": "true",
-                        "space": "true",
+                        "model_ci": true,
+                        "space": true,
                         "python_version": "3.8",
                         "openmind_version": "0.7.1",
                         "hardware_version": "NPU",
@@ -390,8 +390,8 @@
                     "name": "registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0.rc1.beta1-mindspore2.3.0rc1-openmind0.7.1",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-cann8.0.rc1.beta1-mindspore2.3.0rc1-openmind0.7.1",
                     "metadata": {
-                        "model_ci": "true",
-                        "space": "true",
+                        "model_ci": true,
+                        "space": true,
                         "python_version": "3.8",
                         "openmind_version": "0.7.1",
                         "hardware_version": "NPU",
@@ -414,8 +414,8 @@
                     "name": "registry.modelers.cn/base_image/openmind:openeuler-python3.8-mindspore2.3.0rc1-openmind0.7.1",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-mindspore2.3.0rc1-openmind0.7.1",
                     "metadata": {
-                        "model_ci": "false",
-                        "space": "true",
+                        "model_ci": false,
+                        "space": true,
                         "python_version": "3.8",
                         "openmind_version": "0.7.1",
                         "hardware_version": "CPU",
@@ -437,8 +437,8 @@
                     "name": "registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.7.1",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/openmind:openeuler-python3.8-pytorch2.1.0-openmind0.7.1",
                     "metadata": {
-                        "model_ci": "false",
-                        "space": "true",
+                        "model_ci": false,
+                        "space": true,
                         "python_version": "3.8",
                         "openmind_version": "0.7.1",
                         "hardware_version": "CPU",
