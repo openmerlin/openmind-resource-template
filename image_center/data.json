@@ -17,50 +17,196 @@
                 {
                     "version": "latest",
                     "update_time": "2024/09/26",
-                    "size": "3.2 GB",
-                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/cann",
+                    "name": "registry.modelers.cn/base_image/cann:latest",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/cann:latest",
                     "manifest": [
                         {
-                            "hash": "sha256:d15f60358046fe998987a65b2fc848ef69d6f1a65392ed825a250ef602ccccfb",
-                            "os_arch": "Ubuntu/aarch64",
-                            "size": "3.2 GB",
+                            "hash": "sha256:7e0a08eea457270122eac13b2adcbf9c0032b0c9302462dea764154d7fc5b83c",
+                            "os_arch": "linux/amd64",
+                            "size": "3.6 GB",
+                            "update_time": "2024/09/26"
+                        },
+                        {
+                            "hash": "sha256:705a86ac3b8a8668c7e45660dd552c94398af07d5ab14fd2e1a6cb5e5aab049d",
+                            "os_arch": "linux/arm64",
+                            "size": "3.6 GB",
                             "update_time": "2024/09/26"
                         }
-                    ],
-                    "name" : "registry.modelers.cn/base_image/cann",
-                    "hardware" : "NPU"
+                    ]
+                },
+                {
+                    "version": "openeuler-python3.9-cann8.0.rc3.alpha002",
+                    "update_time": "2024/09/26",
+                    "name": "registry.modelers.cn/base_image/cann:openeuler-python3.9-cann8.0.rc3.alpha002",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/cann:openeuler-python3.9-cann8.0.rc3.alpha002",
+                    "manifest": [
+                        {
+                            "hash": "sha256:1645d61378a07b5abb10a75e4887ff9b09156c4b9b96c9c46857555e3796ace0",
+                            "os_arch": "linux/amd64",
+                            "size": "3.7 GB",
+                            "update_time": "2024/09/26"
+                        },
+                        {
+                            "hash": "sha256:d7851927dfbc3d0cc173f980518e019fdc29f29ccbbc8321d54d0a158cb3938d",
+                            "os_arch": "linux/arm64",
+                            "size": "3.7 GB",
+                            "update_time": "2024/09/26"
+                        }
+                    ]
                 },
                 {
                     "version": "ubuntu-python3.9-cann8.0.rc3.alpha002",
                     "update_time": "2024/09/26",
-                    "size": "3.1 GB",
+                    "name": "registry.modelers.cn/base_image/cann:ubuntu-python3.9-cann8.0.rc3.alpha002",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/cann:ubuntu-python3.9-cann8.0.rc3.alpha002",
                     "manifest": [
                         {
-                            "hash": "sha256:d15f60358046fe998987a65b2fc848ef69d6f1a65392ed825a250ef602ccccfb",
-                            "os_arch": "Ubuntu/aarch64",
-                            "size": "3.1 GB",
+                            "hash": "sha256:7e0a08eea457270122eac13b2adcbf9c0032b0c9302462dea764154d7fc5b83c",
+                            "os_arch": "linux/amd64",
+                            "size": "3.6 GB",
+                            "update_time": "2024/09/26"
+                        },
+                        {
+                            "hash": "sha256:705a86ac3b8a8668c7e45660dd552c94398af07d5ab14fd2e1a6cb5e5aab049d",
+                            "os_arch": "linux/arm64",
+                            "size": "3.6 GB",
                             "update_time": "2024/09/26"
                         }
-                    ],
-                    "name" : "registry.modelers.cn/base_image/cann:ubuntu-python3.9-cann8.0.rc3.alpha002",
-                    "hardware" : "NPU"
+                    ]
+                },
+                {
+                    "version": "openeuler-python3.9-cann8.0.rc2.beta1",
+                    "update_time": "2024/09/26",
+                    "name": "registry.modelers.cn/base_image/cann:openeuler-python3.9-cann8.0.rc2.beta1",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/cann:openeuler-python3.9-cann8.0.rc2.beta1",
+                    "manifest": [
+                        {
+                            "hash": "sha256:0ded3582c49801f06c9fd5c504d1191eb0409ae671e7d24dd48e0c62b9285ea1",
+                            "os_arch": "linux/amd64",
+                            "size": "3.2 GB",
+                            "update_time": "2024/09/26"
+                        },
+                        {
+                            "hash": "sha256:2ffb7eca7ea4142069e8a11c00df1a9921f7cd44c72d95bf14d7e2b770ad2e08",
+                            "os_arch": "linux/arm64",
+                            "size": "3.2 GB",
+                            "update_time": "2024/09/26"
+                        }
+                    ]
+                },
+                {
+                    "version": "ubuntu-python3.9-cann8.0.rc2.beta1",
+                    "update_time": "2024/09/26",
+                    "name": "registry.modelers.cn/base_image/cann:ubuntu-python3.9-cann8.0.rc2.beta1",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/cann:ubuntu-python3.9-cann8.0.rc2.beta1",
+                    "manifest": [
+                        {
+                            "hash": "sha256:05cc6c145851dd05c1292bacb3085b0b75392b270fc5d84277dcbd59d022bdc8",
+                            "os_arch": "linux/amd64",
+                            "size": "3.2 GB",
+                            "update_time": "2024/09/26"
+                        },
+                        {
+                            "hash": "sha256:897ac9c1dd8d7612c34f8cdbac06d62d89832e59f6751fec003408178b3e8a6f",
+                            "os_arch": "linux/arm64",
+                            "size": "3.2 GB",
+                            "update_time": "2024/09/26"
+                        }
+                    ]
                 },
                 {
                     "version": "openeuler-python3.8-cann8.0.rc1.beta1",
-                    "update_time": "2024/08/22",
-                    "size": "3.2 GB",
+                    "update_time": "2024/09/26",
+                    "name": "registry.modelers.cn/base_image/cann:openeuler-python3.8-cann8.0.rc1.beta1",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/cann:openeuler-python3.8-cann8.0.rc1.beta1",
                     "manifest": [
                         {
-                            "hash": "sha256:d15f60358046fe998987a65b2fc848ef69d6f1a65392ed825a250ef602ccccfb",
-                            "os_arch": "openEuler/aarch64",
-                            "size": "3.2GB",
-                            "update_time": "2024/08/22"
+                            "hash": "sha256:6d9817342f4b5a120a1472f8e92c4dd974c8e6872e5c5e32cd5017351a82923a",
+                            "os_arch": "linux/amd64",
+                            "size": "3.2 GB",
+                            "update_time": "2024/09/26"
+                        },
+                        {
+                            "hash": "sha256:07bbe017ee5e0fbc4decb039e13052e6353f9862701a81904946a2a1a7beba99",
+                            "os_arch": "linux/arm64",
+                            "size": "3.1 GB",
+                            "update_time": "2024/09/26"
                         }
-                    ],
-                    "name" : "registry.modelers.cn/base_image/cann:openeuler-python3.8-cann8.0.rc1.beta1",
-                    "hardware" : "NPU"
+                    ]
+                },
+                {
+                    "version": "ubuntu-python3.8-cann8.0.rc1.beta1",
+                    "update_time": "2024/09/26",
+                    "name": "registry.modelers.cn/base_image/cann:ubuntu-python3.8-cann8.0.rc1.beta1",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/cann:ubuntu-python3.8-cann8.0.rc1.beta1",
+                    "manifest": [
+                        {
+                            "hash": "sha256:5224e49b567cc2be14ccb1ed8638cc28ee0dccd84fd722f16d113dfc41968548",
+                            "os_arch": "linux/amd64",
+                            "size": "3.1 GB",
+                            "update_time": "2024/09/26"
+                        },
+                        {
+                            "hash": "sha256:d5924988e8e3eafb0b93b01382941538fb1dac8a6fee9b02852570006cb67197",
+                            "os_arch": "linux/arm64",
+                            "size": "3.1 GB",
+                            "update_time": "2024/09/26"
+                        }
+                    ]
+                },
+                {
+                    "version": "openeuler-python3.8-cann7.0.1.beta1",
+                    "update_time": "2024/09/26",
+                    "name": "registry.modelers.cn/base_image/cann:openeuler-python3.8-cann7.0.1.beta1",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/cann:openeuler-python3.8-cann7.0.1.beta1",
+                    "manifest": [
+                        {
+                            "hash": "sha256:966a7ed70acc641eefe8fee8d7b679657e977b2849409b196ca55c18097e8bc4",
+                            "os_arch": "linux/amd64",
+                            "size": "2.9 GB",
+                            "update_time": "2024/09/26"
+                        },
+                        {
+                            "hash": "sha256:2c2840d3cfca23488ff2fadfa1b9bcfa15a2e1caf3d37571b034ece1f13a09cc",
+                            "os_arch": "linux/arm64",
+                            "size": "2.9 GB",
+                            "update_time": "2024/09/26"
+                        }
+                    ]
+                },
+                {
+                    "version": "ubuntu-python3.8-cann7.0.1.beta1",
+                    "update_time": "2024/09/26",
+                    "name": "registry.modelers.cn/base_image/cann:ubuntu-python3.8-cann7.0.1.beta1",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/cann:ubuntu-python3.8-cann7.0.1.beta1",
+                    "manifest": [
+                        {
+                            "hash": "sha256:3f11395fdfd267d2f751104239b936cb8475372e643bc90cef2db109bfe16220",
+                            "os_arch": "linux/amd64",
+                            "size": "2.9 GB",
+                            "update_time": "2024/09/26"
+                        },
+                        {
+                            "hash": "sha256:85e5bc59e0b5609bf514b46511caeb030825fb138d1b8c17d2dfac6da4981802",
+                            "os_arch": "linux/arm64",
+                            "size": "2.9 GB",
+                            "update_time": "2024/09/26"
+                        }
+                    ]
+                },
+                {
+                    "version": "openeuler-python3.8-cann8.0.rc2.beta1",
+                    "update_time": "2024/09/10",
+                    "name": "registry.modelers.cn/base_image/cann:openeuler-python3.8-cann8.0.rc2.beta1",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/cann:openeuler-python3.8-cann8.0.rc2.beta1",
+                    "manifest": [
+                        {
+                            "hash": "sha256:415e67f17fb0728be0f8a1591404f94424921481f3ab9f0817d2e77d0008f3a9",
+                            "os_arch": "linux/arm64",
+                            "size": "3.2 GB",
+                            "update_time": "2024/09/10"
+                        }
+                    ]
                 }
             ]
         },
@@ -79,36 +225,58 @@
             "docker_pull_command": "docker pull registry.modelers.cn/base_image/pytorch",
             "tags": [
                 {
+                    "version": "ubuntu-python3.8-cann8.0.rc1.beta1-pytorch2.1.0",
+                    "update_time": "2024/09/26",
+                    "name": "registry.modelers.cn/base_image/pytorch:ubuntu-python3.8-cann8.0.rc1.beta1-pytorch2.1.0",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/pytorch:ubuntu-python3.8-cann8.0.rc1.beta1-pytorch2.1.0",
+                    "manifest": [
+                        {
+                            "hash": "sha256:e827b0a6907d32f9f108492e0dda9de530dfeeb71cf530ad2ff154854088e247",
+                            "os_arch": "linux/amd64",
+                            "size": "3.3 GB",
+                            "update_time": "2024/09/26"
+                        },
+                        {
+                            "hash": "sha256:34cc1ff6afa2792816a7947dba3adad07e6b33c78338db5e38fadacdd72ae38e",
+                            "os_arch": "linux/arm64",
+                            "size": "3.2 GB",
+                            "update_time": "2024/09/26"
+                        }
+                    ]
+                },
+                {
                     "version": "ubuntu-python3.8-cann8.0.rc1.beta1-pytorch2.2.0",
-                    "update_time": "2024/08/22",
-                    "size": "3.3 GB",
+                    "update_time": "2024/09/26",
+                    "name": "registry.modelers.cn/base_image/pytorch:ubuntu-python3.8-cann8.0.rc1.beta1-pytorch2.2.0",
                     "docker_pull_command": "docker pull registry.modelers.cn/base_image/pytorch:ubuntu-python3.8-cann8.0.rc1.beta1-pytorch2.2.0",
                     "manifest": [
                         {
-                            "hash": "sha256:0d04d69e0178a2d788d4c2e1282576b01170616a584466862fffa98431c7eb93",
-                            "os_arch": "Ubuntu/aarch64",
-                            "size": "3.3GB",
+                            "hash": "sha256:d912bd8a70c588a27b196453f396baffc6c83c6a63b7521d6e8e59840556ccc8",
+                            "os_arch": "linux/amd64",
+                            "size": "3.3 GB",
+                            "update_time": "2024/09/26"
+                        },
+                        {
+                            "hash": "sha256:fd25b07e1a168eb81b02fc5351f183f857f16410c843ac4e3b386e1a52f31b6b",
+                            "os_arch": "linux/arm64",
+                            "size": "3.2 GB",
                             "update_time": "2024/09/26"
                         }
-                    ],
-                    "name" : "registry.modelers.cn/base_image/pytorch:ubuntu-python3.8-cann8.0.rc1.beta1-pytorch2.2.0",
-                    "hardware" : "NPU"
+                    ]
                 },
                 {
-                    "version": "openeuler-python3.8-cann8.0.rc1.beta1-pytorch2.1.0",
+                    "version": "openeuler-python3.8-pytorch2.1.0",
                     "update_time": "2024/08/22",
-                    "size": "3.3 GB",
-                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/pytorch:openeuler-python3.8-cann8.0.rc1.beta1-pytorch2.1.0",
+                    "name": "registry.modelers.cn/base_image/pytorch:openeuler-python3.8-pytorch2.1.0",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/pytorch:openeuler-python3.8-pytorch2.1.0",
                     "manifest": [
                         {
-                            "hash": "sha256:ebdfeed17fb39479859ed8debdd11093ec1d3915a80ccdcfb65ef2481b6fc69c",
-                            "os_arch": "openEuler/aarch64",
-                            "size": "3.3GB",
+                            "hash": "sha256:e35561c3447c3b8935729c44935452937fd5309f51030d85cf809dc2e5cce47b",
+                            "os_arch": "linux/amd64",
+                            "size": "396.4 MB",
                             "update_time": "2024/08/22"
                         }
-                    ],
-                    "name" : "registry.modelers.cn/base_image/pytorch:openeuler-python3.8-cann8.0.rc1.beta1-pytorch2.1.0",
-                    "hardware" : "NPU"
+                    ]
                 }
             ]
         },
@@ -127,20 +295,38 @@
             "docker_pull_command": "docker pull registry.modelers.cn/base_image/mindspore",
             "tags": [
                 {
-                    "version": "openeuler-python3.8-cann8.0.rc1.beta1-mindspore2.3.0rc1",
-                    "update_time": "2024/08/22",
-                    "size": "3.4 GB",
-                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/mindspore:openeuler-python3.8-cann8.0.rc1.beta1-mindspore2.3.0rc1",
+                    "version": "ubuntu-python3.8-cann8.0.rc1.beta1-mindspore2.3.0rc1",
+                    "update_time": "2024/09/26",
+                    "name": "registry.modelers.cn/base_image/mindspore:ubuntu-python3.8-cann8.0.rc1.beta1-mindspore2.3.0rc1",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/mindspore:ubuntu-python3.8-cann8.0.rc1.beta1-mindspore2.3.0rc1",
                     "manifest": [
                         {
-                            "hash": "sha256:625f1c94dc349f27e3ed25e6bf49d159c2bf581fab0e160d21cb7e8e3aeaf2c6",
-                            "os_arch": "openEuler/aarch64",
-                            "size": "3.4GB",
+                            "hash": "sha256:1217ebf3fda636b983b0989d7931d5508c9744771ba4fe27a93d07a9c475a80d",
+                            "os_arch": "linux/amd64",
+                            "size": "3.8 GB",
+                            "update_time": "2024/09/26"
+                        },
+                        {
+                            "hash": "sha256:e37078e5733d70d9bb510b34bda8457f8dbe293302d839e8b607d012d5ce8e69",
+                            "os_arch": "linux/arm64",
+                            "size": "3.3 GB",
+                            "update_time": "2024/09/26"
+                        }
+                    ]
+                },
+                {
+                    "version": "openeuler-python3.8-mindspore2.3.0rc1",
+                    "update_time": "2024/08/22",
+                    "name": "registry.modelers.cn/base_image/mindspore:openeuler-python3.8-mindspore2.3.0rc1",
+                    "docker_pull_command": "docker pull registry.modelers.cn/base_image/mindspore:openeuler-python3.8-mindspore2.3.0rc1",
+                    "manifest": [
+                        {
+                            "hash": "sha256:6c65a0b0d40112dc8406ef605d2589429dff35c40e6b8a11c748fef2ef3c1cbc",
+                            "os_arch": "linux/amd64",
+                            "size": "982.7 MB",
                             "update_time": "2024/08/22"
                         }
-                    ],
-                    "name" : "registry.modelers.cn/base_image/mindspore:openeuler-python3.8-cann8.0.rc1.beta1-mindspore2.3.0rc1",
-                    "hardware" : "NPU"
+                    ]
                 }
             ]
         },
